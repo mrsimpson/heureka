@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Technik und Fortschritt
+summary: Internet, Energie, Stoffe und Messgeräte.
+pages: [internet-computer, energie-strom, stoffe-messgeraete]

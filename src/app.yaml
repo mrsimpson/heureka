@@ -1,0 +1,244 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Heureka üben
+intro: |
+  Knobelaufgaben im Stil eines naturwissenschaftlichen Schülerwettbewerbs: drei Antworten, eine ist richtig.
+  Du lernst, wie du Aussagen prüfst, falsche Antworten ausschließt und klug rätst. Dazu gibt es kurze
+  Erklärungen und Aufgaben zu Mensch und Tier, Natur und Umwelt sowie Technik und Fortschritt.
+  Für die Klassen 5 und 6.
+languages:
+  - de
+chapters:
+  - start
+  - denken
+  - mensch-tier
+  - natur-umwelt
+  - technik
+sources:
+  - title: Spinnentiere (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Spinnentiere
+  - title: Wale (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Wale
+  - title: Mond (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Mond
+  - title: Herzfrequenz (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Herzfrequenz
+  - title: Mount Everest (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Mount_Everest
+  - title: Lunge (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Lunge
+  - title: Luftröhre (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Luftröhre
+  - title: Zwerchfell (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Zwerchfell
+  - title: Atmung (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Atmung
+  - title: Kehlkopf (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Kehlkopf
+  - title: Niere (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Niere
+  - title: Sinnesorgan (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Sinnesorgan
+  - title: Haut (Medi-Karriere)
+    url: https://www.medi-karriere.de/wiki/haut
+  - title: Haut (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Haut
+  - title: Nervenzelle (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Nervenzelle
+  - title: Nervensystem (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Nervensystem
+  - title: Blut (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Blut
+  - title: Thrombozyten (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Thrombozyten
+  - title: Leukozyten (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Leukozyten
+  - title: Erythrozyten (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Erythrozyten
+  - title: Blutplasma (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Blutplasma
+  - title: Impfung (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Impfung
+  - title: Immunsystem (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Immunsystem
+  - title: Antibiotikum (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Antibiotikum
+  - title: Viren (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Viren
+  - title: Vitamin D (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Vitamin_D
+  - title: Calcium (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Calcium
+  - title: Insulin (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Insulin
+  - title: Hormon (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Hormon
+  - title: Eisbär (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Eisbär
+  - title: Pinguine (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Pinguine
+  - title: Quallen (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Quallen
+  - title: Junges (Wiktionary)
+    url: https://de.wiktionary.org/wiki/Junges
+  - title: Hauspferd (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Hauspferd
+  - title: Hausschwein (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Hausschwein
+  - title: Schmetterlinge (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Schmetterlinge
+  - title: Metamorphose (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Metamorphose_(Zoologie)
+  - title: Säugetiere (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Säugetiere
+  - title: Delfine (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Delfine
+  - title: Schnabeltier (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Schnabeltier
+  - title: Flamingos (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Flamingos
+  - title: Insekten (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Insekten
+  - title: Treibhauseffekt (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Treibhauseffekt
+  - title: Pilze (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Pilze
+  - title: So lange braucht Abfall zum Verrotten (Utopia)
+    url: https://utopia.de/ratgeber/so-lange-braucht-abfall-um-zu-verrotten
+  - title: Ökosystem (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Ökosystem
+  - title: Nachhaltigkeit (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Nachhaltigkeit
+  - title: Photosynthese (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Photosynthese
+  - title: Wald (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Wald
+  - title: Planet (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Planet
+  - title: Sonnensystem (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Sonnensystem
+  - title: Komet (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Komet
+  - title: Asteroid (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Asteroid
+  - title: Meteoroid (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Meteoroid
+  - title: Planetenmond (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Planetenmond
+  - title: Stern (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Stern
+  - title: Weltraum (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Weltraum
+  - title: Verbrennung (Chemie) (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Verbrennung_(Chemie)
+  - title: Weltall (Klexikon)
+    url: https://klexikon.zum.de/wiki/Weltall
+  - title: Lichtjahr (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Lichtjahr
+  - title: Sonne (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Sonne
+  - title: Astronomische Einheit (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Astronomische_Einheit
+  - title: Erde (Klexikon)
+    url: https://klexikon.zum.de/wiki/Erde
+  - title: Erde (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Erde
+  - title: Mondfinsternis (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Mondfinsternis
+  - title: Sonnenfinsternis (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Sonnenfinsternis
+  - title: Mondphase (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Mondphase
+  - title: Meerwasser (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Meerwasser
+  - title: Meer (Klexikon)
+    url: https://klexikon.zum.de/wiki/Meer
+  - title: Trinkwasser (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Trinkwasser
+  - title: Saccharose (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Saccharose
+  - title: Löslichkeit (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Löslichkeit
+  - title: Eisberg (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Eisberg
+  - title: Wasserkreislauf (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Wasserkreislauf
+  - title: Wolke (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Wolke
+  - title: Wind (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Wind
+  - title: Regenbogen (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Regenbogen
+  - title: Arbeitsspeicher (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Arbeitsspeicher
+  - title: Festplattenlaufwerk (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Festplattenlaufwerk
+  - title: Hauptprozessor (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Hauptprozessor
+  - title: Künstliche Intelligenz (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Künstliche_Intelligenz
+  - title: Elektroauto (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Elektroauto
+  - title: Kupfer (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Kupfer
+  - title: Aluminium (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Aluminium
+  - title: Multiple Choice (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Multiple_Choice
+  - title: Windenergieanlage (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Windenergieanlage
+  - title: Elektrischer Generator (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Elektrogenerator
+  - title: Solarzelle (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Solarzelle
+  - title: Fossile Energie (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Fossile_Energie
+  - title: Erneuerbare Energien (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Erneuerbare_Energien
+  - title: Energieeinsparung (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Energieeinsparung
+  - title: Webbrowser (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Webbrowser
+  - title: Internet (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Internet
+  - title: Wireless Local Area Network (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Wireless_Local_Area_Network
+  - title: IP-Adresse (Wikipedia)
+    url: https://de.wikipedia.org/wiki/IP-Adresse
+  - title: JPEG (Wikipedia)
+    url: https://de.wikipedia.org/wiki/JPEG
+  - title: MP3 (Wikipedia)
+    url: https://de.wikipedia.org/wiki/MP3
+  - title: Textdatei (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Textdatei
+  - title: Portable Document Format (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Portable_Document_Format
+  - title: Phishing (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Phishing
+  - title: Spam (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Spam
+  - title: Softwareaktualisierung (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Softwareaktualisierung
+  - title: QR-Code (Wikipedia)
+    url: https://de.wikipedia.org/wiki/QR-Code
+  - title: Hashtag (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Hashtag
+  - title: Magnet (Klexikon)
+    url: https://klexikon.zum.de/wiki/Magnet
+  - title: Magnetfeld (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Magnetfeld
+  - title: Barometer (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Barometer
+  - title: Hygrometer (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Hygrometer
+  - title: Thermometer (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Thermometer
+  - title: Tachometer (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Tachometer
+  - title: Waage (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Waage
+  - title: Recycling (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Recycling
+  - title: Klonen (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Klonen
+  - title: Lötkolben (Wikipedia)
+    url: https://de.wikipedia.org/wiki/Lötkolben

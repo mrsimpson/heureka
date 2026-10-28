@@ -1,0 +1,105 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Falsche Aussage finden
+description: Wie du bei der Frage „Welche Aussage ist falsch?“ klug vorgehst, mit Beispielen und Übungen.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Oft heißt es: „Welche Aussage ist falsch?“ Dann suchst du nicht die richtige, sondern die einzige falsche
+          Aussage. Das ist eine eigene Technik, und die kannst du trainieren.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Aussage
+        explanation: Ein Satz, der entweder stimmt oder nicht stimmt.
+      - type: text
+        text: |
+          So gehst du vor:
+
+          1. Lies die Frage zweimal. Steht dort „falsch“ oder „richtig“? Unterstreiche das Wort in Gedanken.
+          2. Prüfe jede Aussage einzeln und sage dir: „stimmt“ oder „stimmt nicht“.
+          3. Bei „falsch“ gesucht: Zwei Aussagen stimmen, eine nicht. Findest du zwei wahre, ist die dritte die Lösung.
+          4. Achte auf Wörter wie **alle**, **immer**, **nie**, **nur**. Sie machen eine Aussage sehr streng. Schon eine
+             Ausnahme macht sie falsch.
+      - type: note
+        title: Vorsicht bei Signalwörtern
+        blocks:
+          - type: text
+            text: |
+              Aussagen mit „alle“, „immer“ oder „nie“ sind oft falsch, aber nicht jedes Mal. Prüfe den Inhalt, nicht
+              nur das Signalwort.
+      - type: example
+        title: Ein Beispiel zum Vorgehen
+        blocks:
+          - type: text
+            text: |
+              Welche Aussage über Spinnen ist falsch? (a) Spinnen haben acht Beine. (b) Spinnen sind Insekten.
+              (c) Spinnen gehören zu den Gliederfüßern.
+          - type: text
+            text: |
+              Du prüfst: Acht Beine stimmt. Insekten haben aber sechs Beine, Spinnen sind eine eigene Gruppe. Also ist
+              (b) falsch. Die Gliederfüßer bei (c) umfassen Spinnentiere und Insekten, also stimmt auch (c).
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: falsch-spinnen
+        text: "Welche Aussage über Spinnen ist falsch?"
+        options:
+          - text: "Spinnen sind Insekten."
+            correct: true
+            info: "Das stimmt nicht. Insekten haben sechs Beine, Spinnen gehören zu den Spinnentieren, einer eigenen Gruppe."
+          - text: "Spinnen haben acht Beine."
+            correct: false
+            info: "Das stimmt. Spinnentiere haben vier Beinpaare, also acht Beine."
+          - text: "Spinnen sind Spinnentiere."
+            correct: false
+            info: "Das stimmt. Spinnen sind die bekannteste Gruppe der Spinnentiere."
+        explanation: "Spinnen haben acht Beine und sind Spinnentiere. Insekten haben sechs Beine. Darum ist die Aussage, Spinnen seien Insekten, falsch."
+        links:
+          - { title: "Spinnentiere (Wikipedia)", url: "https://de.wikipedia.org/wiki/Spinnentiere" }
+      - type: single-choice
+        id: falsch-wale
+        text: "Welche Aussage über Wale ist falsch?"
+        options:
+          - text: "Wale atmen mit Lungen und holen an der Oberfläche Luft."
+            correct: false
+            info: "Das stimmt. Wale sind Luftatmer und atmen über ein oder zwei Blaslöcher auf dem Kopf."
+          - text: "Wale sind Fische, weil sie im Wasser leben."
+            correct: true
+            info: "Das stimmt nicht. Dass ein Tier im Wasser lebt, macht es nicht zum Fisch. Wale sind Säugetiere."
+          - text: "Walkälber trinken Milch bei ihrer Mutter."
+            correct: false
+            info: "Das stimmt. Wale säugen ihre Jungen mit sehr fettreicher Milch."
+        explanation: "Wale sind Säugetiere: Sie atmen Luft, gebären meist ein Junges und säugen es."
+        links:
+          - { title: "Wale (Wikipedia)", url: "https://de.wikipedia.org/wiki/Wale" }
+      - type: single-choice
+        id: falsch-mond
+        text: "Welche Aussage über den Mond ist falsch?"
+        options:
+          - text: "Der Mond leuchtet, weil er das Licht der Sonne zurückwirft."
+            correct: false
+            info: "Das stimmt. Der Mond reflektiert das Sonnenlicht."
+          - text: "Der Mond ist von der Erde im Mittel rund 384 000 km entfernt."
+            correct: false
+            info: "Das stimmt. Die mittlere Entfernung beträgt etwa 384 400 km."
+          - text: "Der Mond leuchtet von selbst wie ein kleiner Stern."
+            correct: true
+            info: "Das stimmt nicht. Der Mond erzeugt kein eigenes Licht, sondern wird von der Sonne beleuchtet."
+        explanation: "Der Mond selbst leuchtet nicht. Er wird von der Sonne angestrahlt und wirft einen Teil des Lichts zurück."
+        links:
+          - { title: "Mond (Wikipedia)", url: "https://de.wikipedia.org/wiki/Mond" }
+      - type: true-false
+        id: falsch-signalwort
+        text: "Die Aussage „Alle Tiere im Meer sind Fische“ ist richtig."
+        answer: false
+        explanation: "Im Meer leben auch Säugetiere wie Wale, dazu Quallen, Krebse und viele andere Tiere. Das Wort „alle“ macht die Aussage sehr streng, und eine einzige Ausnahme genügt, damit sie falsch ist."
+        links:
+          - { title: "Wale (Wikipedia)", url: "https://de.wikipedia.org/wiki/Wale" }

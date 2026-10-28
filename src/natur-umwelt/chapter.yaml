@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Natur und Umwelt
+summary: Sonne, Erde, Weltall, Wasser, Wetter und der Schutz der Natur.
+pages: [sonne-erde-mond, planeten-weltall, wasser-wetter, natur-schuetzen]

@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Start
+summary: So läuft ein Wettbewerb mit Antworten zum Ankreuzen, und wo du heute stehst.
+pages: [so-geht-heureka, selbsteinschaetzung]

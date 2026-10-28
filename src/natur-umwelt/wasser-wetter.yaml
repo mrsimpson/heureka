@@ -1,0 +1,187 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Wasser und Wetter
+description: Salzwasser und Süßwasser, Eisberge, der Wasserkreislauf, Wolken, Regenbogen, Wind, Klimazonen und gefühlte Temperatur.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Wasser ist überall: im Meer, in den Wolken, im Eis und im Glas. Auf dieser Seite lernst du, wie Wasser
+          sich verhält und wie daraus Wetter entsteht. Dazu gehören der Wasserkreislauf, der Regenbogen und der Wind.
+          Das sind typische Themen für Aufgaben im Wettbewerb.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Süßwasser
+        explanation: Süßwasser ist Wasser mit sehr wenig Salz, unter 0,1 Prozent. Trinkwasser ist Süßwasser, das so sauber ist, dass man es gefahrlos trinken und zum Kochen benutzen kann.
+      - type: text
+        text: |
+          **Salzwasser und Süßwasser.** Meerwasser enthält im Mittel etwa 35 Gramm Salz in einem Liter. Es ist zu
+          salzig zum Trinken. Wer aus Meerwasser Trinkwasser machen will, muss es entsalzen. Das kostet viel Energie
+          und Geld. Nur ein kleiner Teil des Wassers auf der Erde ist Süßwasser, nämlich etwa 2,6 bis 3,5 Prozent. Der
+          größte Teil davon ist als Eis, in den Polargebieten oder im Boden gebunden.
+      - type: text
+        text: |
+          **Zucker im Wasser.** Zucker löst sich in warmem Wasser besser als in kaltem. In 100 Gramm Wasser von 20 °C
+          lösen sich gut 200 Gramm Zucker, bei 100 °C fast 500 Gramm. Bei Salz ist es anders: Kochsalz löst sich bei
+          warmem Wasser kaum besser als bei kaltem.
+      - type: text
+        text: |
+          **Eisberge.** Ein Eisberg ist ein großes Stück Eis, das von einem Gletscher oder vom Schelfeis abgebrochen
+          ist und im Meer treibt. Er besteht meist aus Süßwasser. Eis ist leichter als Wasser, deshalb schwimmt es.
+          Aber der größte Teil, etwa 90 Prozent, liegt unter Wasser. Nur die Spitze ragt heraus.
+      - type: text
+        text: |
+          **Wasserkreislauf.** Die Sonne erwärmt das Wasser, vor allem im Meer. Es verdunstet und steigt als
+          Wasserdampf auf. In der Höhe kühlt die feuchte Luft ab, der Dampf wird wieder zu Tröpfchen
+          (Kondensation) und es bilden sich Wolken. Wenn die Tropfen groß genug sind, fallen sie als Regen, Schnee
+          oder Hagel zur Erde (Niederschlag). Das Wasser versickert oder fließt über Bäche und Flüsse zurück ins Meer.
+      - type: definition
+        term: Wolke
+        explanation: Eine Wolke besteht aus winzigen Wassertröpfchen oder Eiskristallen, die in der Luft schweben. Wasserdampf selbst ist unsichtbar. Sichtbar wird die Wolke erst, wenn er zu Tröpfchen wird.
+      - type: table
+        caption: Drei bekannte Wolkenarten
+        header: [Name, So sieht sie aus]
+        rowHeaders: true
+        rows:
+          - [Cumulus, Haufenwolke. Sie entsteht durch aufsteigende Luft.]
+          - [Stratus, Tiefe Schichtwolke.]
+          - [Cirrus, "Hohe, dünne Wolke aus Eiskristallen."]
+      - type: text
+        text: |
+          **Regenbogen.** Sonnenlicht fällt in Regentropfen, wird dort gebrochen und an der Rückseite des Tropfens
+          zurückgeworfen. Dabei wird es in seine Farben zerlegt. Du brauchst also Sonne und Tropfen. Die Sonne muss
+          hinter dir stehen, die Tropfen sind vor dir. Beim Hauptregenbogen ist Rot außen und Violett innen.
+      - type: text
+        text: |
+          **Wind.** Wind entsteht, weil der Luftdruck an verschiedenen Orten unterschiedlich ist. Luft strömt von
+          Gebieten mit hohem Druck zu Gebieten mit tiefem Druck. Die Richtung benennt man nach dem Ort, **aus dem** der
+          Wind kommt. Ein Nordwind kommt also aus Norden und weht nach Süden.
+      - type: table
+        caption: Die Klimazonen der Erde, vom Äquator zu den Polen
+        header: [Zone, Wo liegt sie?]
+        rowHeaders: true
+        rows:
+          - [Tropen, Vom Äquator bis zu den Wendekreisen.]
+          - [Subtropen, Von den Wendekreisen bis etwa zum 45. Breitengrad.]
+          - [Gemäßigte Zone, Vom 45. Breitengrad bis zu den Polarkreisen.]
+          - [Polare Zone, Von den Polarkreisen bis zu den Polen.]
+      - type: text
+        text: |
+          Die Zonen entstehen, weil die Sonnenstrahlen am Äquator steil auftreffen und an den Polen flach. Am Äquator
+          wird dieselbe Fläche stärker erwärmt als an den Polen.
+      - type: note
+        title: Gefühlte Temperatur
+        blocks:
+          - type: text
+            text: Der Windchill sagt, wie kalt es sich bei Wind anfühlt. Wind trägt die warme Luft an der Haut fort und kühlt sie. Die Lufttemperatur, die das Thermometer misst, ändert der Wind nicht.
+      - type: example
+        title: So gehst du bei einer Frage vor
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage ist falsch?
+              A: Ein Eisberg besteht meist aus Süßwasser. B: Eis ist leichter als Wasser. C: Bei Wind sinkt die Lufttemperatur, die das Thermometer zeigt.
+          - type: text
+            text: |
+              **Schritt 1:** Gesucht ist die falsche Aussage.
+              **Schritt 2:** A prüfen. Eisberge brechen von Gletschern ab, die aus Süßwasser bestehen. A stimmt.
+              **Schritt 3:** B prüfen. Eis schwimmt, also ist es leichter. B stimmt.
+              **Schritt 4:** C prüfen. Wind lässt es sich kälter anfühlen, aber das Thermometer zeigt dieselbe Temperatur. C ist falsch und damit die Antwort.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: wasser-wetter-meerwasser-falsch
+        text: Welche Aussage über Wasser ist falsch?
+        options:
+          - text: Ein Liter Meerwasser enthält im Mittel etwa 35 Gramm Salz.
+            correct: false
+            info: Das stimmt. Meerwasser hat im Mittel einen Salzgehalt von 3,5 Prozent.
+          - text: Trinkwasser ist Süßwasser, das sauber genug zum Trinken ist.
+            correct: false
+            info: Das stimmt. Trinkwasser ist Süßwasser mit einem hohen Reinheitsgrad.
+          - text: Meerwasser kann man ohne Aufbereitung als Trinkwasser nutzen.
+            correct: true
+            info: Das ist falsch. Meerwasser ist zu salzig zum Trinken. Man muss es zuerst entsalzen, und das ist aufwendig und teuer.
+        explanation: Meerwasser ist kein Trinkwasser. Erst nach dem Entsalzen kann man es trinken.
+        hint: Überlege, wie salzig Meerwasser schmeckt.
+        links:
+          - { title: Meerwasser (Wikipedia), url: "https://de.wikipedia.org/wiki/Meerwasser" }
+          - { title: Meer (Klexikon), url: "https://klexikon.zum.de/wiki/Meer" }
+          - { title: Trinkwasser (Wikipedia), url: "https://de.wikipedia.org/wiki/Trinkwasser" }
+      - type: single-choice
+        id: wasser-wetter-zucker
+        text: Du rührst in zwei gleiche Gläser Wasser nach und nach Zucker, bis nichts mehr aufgeht. Ein Glas ist mit warmem Wasser gefüllt, das andere mit kaltem. Was stimmt?
+        options:
+          - text: Im warmen Wasser löst sich mehr Zucker.
+            correct: true
+            info: Die Löslichkeit von Zucker steigt mit der Temperatur. Bei 100 °C löst sich fast zweieinhalbmal so viel wie bei 20 °C.
+          - text: Im kalten Wasser löst sich mehr Zucker.
+            correct: false
+            info: Es ist umgekehrt. Bei Zucker nimmt die Löslichkeit mit der Wärme zu. Bei manchen Gasen ist es anders, sie lösen sich in kaltem Wasser besser.
+          - text: In beiden Gläsern löst sich gleich viel Zucker.
+            correct: false
+            info: Die Menge hängt von der Temperatur ab. Nur bei Kochsalz ist der Unterschied sehr klein.
+        explanation: Zucker löst sich in warmem Wasser besser als in kaltem.
+        links:
+          - { title: Saccharose (Wikipedia), url: "https://de.wikipedia.org/wiki/Saccharose" }
+          - { title: Löslichkeit (Wikipedia), url: "https://de.wikipedia.org/wiki/Löslichkeit" }
+      - type: single-choice
+        id: wasser-wetter-eisberg
+        text: Ein Eisberg schwimmt im Meer. Wo liegt der größte Teil von ihm?
+        options:
+          - text: Über dem Wasser, nur die Unterseite taucht ein.
+            correct: false
+            info: Das ist nicht so. Eis ist leichter als Wasser und schwimmt, aber nur ein kleiner Teil ragt heraus.
+          - text: Etwa zur Hälfte über und zur Hälfte unter dem Wasser.
+            correct: false
+            info: So viel schaut nicht heraus. Nur ungefähr ein Zehntel ragt über das Wasser.
+          - text: Unter Wasser, nur die Spitze schaut heraus.
+            correct: true
+            info: Das stimmt. Etwa 90 Prozent eines Eisbergs liegen unter dem Wasser.
+        explanation: Eis ist leichter als Wasser und schwimmt deshalb. Der größte Teil, etwa 90 Prozent, liegt aber unter Wasser. Der Eisberg besteht meist aus Süßwasser, weil er von einem Gletscher oder Schelfeis abbricht.
+        links:
+          - { title: Eisberg (Wikipedia), url: "https://de.wikipedia.org/wiki/Eisberg" }
+      - type: ordering
+        id: wasser-wetter-kreislauf
+        text: Bringe die Stationen des Wasserkreislaufs in die richtige Reihenfolge, beginnend mit dem Wasser im Meer.
+        items:
+          [
+            Wasser verdunstet,
+            Wasserdampf kühlt ab und wird zu Tröpfchen,
+            Wolken bilden sich und Regen fällt,
+            Wasser fließt zurück ins Meer,
+          ]
+        explanation: Die Sonne lässt Wasser verdunsten. Der Dampf steigt auf, kühlt ab und kondensiert zu Wolken. Daraus fällt Niederschlag, und das Wasser fließt über Flüsse zurück ins Meer.
+        links:
+          - { title: Wasserkreislauf (Wikipedia), url: "https://de.wikipedia.org/wiki/Wasserkreislauf" }
+          - { title: Wolke (Wikipedia), url: "https://de.wikipedia.org/wiki/Wolke" }
+      - type: true-false
+        id: wasser-wetter-nordwind
+        text: Ein Nordwind weht in Richtung Norden.
+        answer: false
+        explanation: Man benennt den Wind nach der Richtung, aus der er kommt. Ein Nordwind kommt aus Norden und weht nach Süden.
+        links:
+          - { title: Wind (Wikipedia), url: "https://de.wikipedia.org/wiki/Wind" }
+      - type: single-choice
+        id: wasser-wetter-regenbogen
+        text: Wann kannst du einen Regenbogen sehen?
+        options:
+          - text: Die Sonne scheint dir in den Rücken und vor dir fallen Regentropfen.
+            correct: true
+            info: Das Sonnenlicht wird in den Tropfen gebrochen und zurückgeworfen und kommt zu dir zurück.
+          - text: Du schaust in die Sonne, und hinter dir regnet es.
+            correct: false
+            info: Der Regenbogen erscheint auf der Seite, die der Sonne gegenüberliegt. Die Tropfen müssen also vor dir liegen, die Sonne im Rücken.
+          - text: Es regnet stark und der Himmel ist ganz bedeckt, ohne Sonne.
+            correct: false
+            info: Ohne Sonnenlicht gibt es keinen Regenbogen. Man braucht Licht, das in den Tropfen in Farben zerlegt wird.
+        explanation: Für einen Regenbogen brauchst du Sonne und Wassertropfen. Das Licht wird im Tropfen gebrochen, zurückgeworfen und in seine Farben zerlegt.
+        links:
+          - { title: Regenbogen (Wikipedia), url: "https://de.wikipedia.org/wiki/Regenbogen" }

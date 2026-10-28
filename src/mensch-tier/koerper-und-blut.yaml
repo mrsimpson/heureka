@@ -1,0 +1,260 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Körper und Blut
+description: Bestandteile des Blutes, Immunsystem und Impfung, Krankheitserreger, Nährstoffe, Vitamine, Mineralstoffe und Hormone.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          In dieser Einheit geht es um das, was in deinem Körper „transportiert“ und „verteidigt“ wird. Du lernst,
+          woraus Blut besteht und wie dein Körper Krankheitserreger abwehrt. Du erfährst auch, wofür Nährstoffe,
+          Vitamine, Mineralstoffe und Hormone gut sind. Solche Fakten brauchst du für viele Wettbewerbsfragen.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: section
+        id: blut
+        title: Blut und seine Bestandteile
+        blocks:
+          - type: text
+            text: |
+              Ein Erwachsener hat etwa fünf bis sechs Liter Blut. Es besteht aus einem flüssigen Teil und aus
+              Zellen. Jeder Teil hat eine eigene Aufgabe.
+          - type: table
+            caption: Die Bestandteile des Blutes und ihre Aufgaben
+            header: [Bestandteil, Aufgabe]
+            rowHeaders: true
+            rows:
+              - [
+                  Blutplasma,
+                  "Der flüssige Teil. Er besteht zu etwa 90 Prozent aus Wasser und transportiert zum Beispiel Zucker, Hormone und Abfallstoffe.",
+                ]
+              - [
+                  Rote Blutkörperchen,
+                  "Sie transportieren Sauerstoff. Der Farbstoff Hämoglobin enthält Eisen und macht das Blut rot.",
+                ]
+              - [Weiße Blutkörperchen, "Sie wehren Krankheitserreger ab und gehören zum Immunsystem."]
+              - [Blutplättchen, "Sie verkleben bei einer Verletzung und verschließen die Wunde. So gerinnt das Blut."]
+          - type: text
+            text: |
+              Rote Blutkörperchen entstehen im roten Knochenmark und leben etwa 120 Tage. Weiße Blutkörperchen
+              sind viel seltener: Auf etwa 700 rote kommt ein weißes. Die Blutplättchen sind die kleinsten Zellen
+              im Blut.
+      - type: section
+        id: abwehr
+        title: Immunsystem und Impfung
+        blocks:
+          - type: definition
+            term: Immunsystem
+            explanation: Das Immunsystem ist die Abwehr deines Körpers. Es erkennt Krankheitserreger und andere fremde Stoffe und bekämpft sie.
+          - type: text
+            text: |
+              Das Immunsystem bildet **Antikörper**. Sie heften sich gezielt an einen Erreger. Nach einer
+              Krankheit bleiben Gedächtniszellen übrig. Triffst du den Erreger später wieder, reagiert dein Körper
+              schneller.
+          - type: definition
+            term: Impfung
+            explanation: Eine Impfung bereitet das Immunsystem vor. Der Impfstoff enthält abgeschwächte oder abgetötete Erreger oder Teile davon. Das Immunsystem lernt sie kennen und bildet Gedächtniszellen.
+          - type: text
+            text: |
+              Es gibt Impfungen gegen Viren und gegen Bakterien, zum Beispiel gegen Masern und gegen Diphtherie.
+              Gegen die Grippe wird jedes Jahr neu geimpft, weil sich die Grippeerreger verändern.
+      - type: section
+        id: erreger
+        title: Krankheitserreger
+        blocks:
+          - type: table
+            caption: Drei Gruppen von Krankheitserregern
+            header: [Gruppe, Das solltest du wissen]
+            rowHeaders: true
+            rows:
+              - [
+                  Viren,
+                  "Viel kleiner als Bakterien. Sie haben keinen eigenen Stoffwechsel und vermehren sich nur in Zellen eines Wirts. Ein Beispiel ist das Grippevirus.",
+                ]
+              - [
+                  Bakterien,
+                  "Meist einzellige Lebewesen ohne echten Zellkern. Sie vermehren sich durch Teilung. Viele sind nützlich, etwa in der Darmflora. Ein Erreger ist zum Beispiel das Cholera-Bakterium.",
+                ]
+              - [
+                  Pilze,
+                  "Ein eigenes Reich, nicht zu den Pflanzen gehörig. Sie haben kein Blattgrün. Einige können Krankheiten auslösen, zum Beispiel Fußpilz.",
+                ]
+          - type: text
+            text: |
+              **Antibiotika** wirken gegen Bakterien. Gegen Viren gibt es andere Mittel. Das Penicillin
+              kommt von einem Schimmelpilz. Alexander Fleming entdeckte es 1928.
+      - type: section
+        id: naehrstoffe
+        title: Nährstoffe, Vitamine und Mineralstoffe
+        blocks:
+          - type: table
+            caption: Die drei großen Nährstoffe
+            header: [Nährstoff, Aufgabe]
+            rowHeaders: true
+            rows:
+              - [
+                  Kohlenhydrate,
+                  "Liefern Energie. Sie stecken zum Beispiel in Getreide und Kartoffeln. Traubenzucker ist besonders wichtig für das Gehirn.",
+                ]
+              - [
+                  Eiweiße,
+                  "Bausteine für Muskeln, Haut und Haare. Auch Antikörper bestehen aus Eiweiß. Viel Eiweiß steckt in Eiern, Fisch, Fleisch, Linsen und Milchprodukten.",
+                ]
+              - [
+                  Fette,
+                  "Liefern am meisten Energie. Ein Gramm Fett enthält mehr als doppelt so viel Energie wie ein Gramm Kohlenhydrate.",
+                ]
+          - type: text
+            text: |
+              **Vitamine** und **Mineralstoffe** brauchst du nur in kleinen Mengen. Sie liefern keine Energie,
+              aber ohne sie funktioniert der Körper nicht richtig.
+          - type: table
+            caption: Wichtige Vitamine und Mineralstoffe
+            header: [Stoff, Wozu er gut ist]
+            rowHeaders: true
+            rows:
+              - [
+                  Vitamin D,
+                  "Hilft dem Körper, Calcium für die Knochen zu nutzen. Die Haut bildet es mit Hilfe von Sonnenlicht. Bei Mangel können Kinder Rachitis bekommen, eine Krankheit mit Knochenschmerzen und verbogenen Knochen.",
+                ]
+              - [
+                  Vitamin C,
+                  "Steckt in Obst und Gemüse, etwa in Orangen und Paprika. Der Mensch kann es nicht selbst bilden. Bei Mangel entsteht Skorbut.",
+                ]
+              - [Calcium, "Macht Knochen und Zähne fest. Es steckt zum Beispiel in Milch, Joghurt und Käse."]
+              - [
+                  Eisen,
+                  "Ist im Hämoglobin der roten Blutkörperchen. Ohne Eisen kann das Blut nicht genug Sauerstoff transportieren.",
+                ]
+      - type: section
+        id: hormone
+        title: Hormone
+        blocks:
+          - type: definition
+            term: Hormon
+            explanation: Ein Hormon ist ein Botenstoff. Spezielle Zellen geben ihn ins Blut ab. Er wirkt dann auf andere Zellen im Körper.
+          - type: text
+            text: |
+              Beispiele: **Insulin** entsteht in der Bauchspeicheldrüse und senkt den Blutzucker. **Adrenalin**
+              entsteht in der Nebenniere. Die **Schilddrüse** bildet ebenfalls Hormone.
+      - type: example
+        title: So prüfst du eine „falsch“-Frage
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage ist falsch?
+
+              - A: Eisen steckt im Hämoglobin der roten Blutkörperchen.
+              - B: Vitamine liefern dem Körper viel Energie.
+              - C: Calcium macht Knochen und Zähne fest.
+          - type: text
+            text: |
+              **Lösung durch Denken:** Du suchst die eine Aussage, die nicht stimmt. Prüfe der Reihe nach. A stimmt:
+              Eisen steckt im roten Blutfarbstoff. C stimmt: Calcium ist in Knochen und Zähnen. B passt nicht.
+              Energie liefern Kohlenhydrate, Fette und Eiweiße. Vitamine und Mineralstoffe liefern keine Energie.
+              B ist also falsch. Achte bei Wörtern wie „alle“, „immer“ oder „nur“: Oft gibt es eine Ausnahme.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: blut-aussage-falsch
+        text: Welche Aussage über das Blut ist falsch?
+        options:
+          - text: Rote Blutkörperchen transportieren Sauerstoff.
+            correct: false
+            info: Das stimmt. Die roten Blutkörperchen nehmen in der Lunge Sauerstoff auf und geben ihn im Körper ab.
+          - text: Weiße Blutkörperchen verschließen Wunden.
+            correct: true
+            info: Das ist falsch. Wunden verschließen die Blutplättchen. Die weißen Blutkörperchen wehren Krankheitserreger ab.
+          - text: Das Blutplasma besteht zum größten Teil aus Wasser.
+            correct: false
+            info: Das stimmt. Etwa 90 Prozent des Plasmas sind Wasser. Darin sind unter anderem Zucker und Hormone gelöst.
+        explanation: Die Blutplättchen verkleben bei einer Verletzung und verschließen die Wunde. Die weißen Blutkörperchen sind für die Abwehr da.
+        hint: Überlege, welche Zellen im Blut zur Abwehr gehören.
+        links:
+          - { title: Blut (Wikipedia), url: "https://de.wikipedia.org/wiki/Blut" }
+          - { title: Thrombozyten (Wikipedia), url: "https://de.wikipedia.org/wiki/Thrombozyten" }
+          - { title: Leukozyten (Wikipedia), url: "https://de.wikipedia.org/wiki/Leukozyten" }
+      - type: matching
+        id: blut-bestandteile-aufgaben
+        text: Ordne jedem Bestandteil des Blutes seine Aufgabe zu.
+        pairs:
+          - { left: Rote Blutkörperchen, right: transportieren Sauerstoff }
+          - { left: Weiße Blutkörperchen, right: wehren Krankheitserreger ab }
+          - { left: Blutplättchen, right: verschließen Wunden }
+          - { left: Blutplasma, right: ist der flüssige Teil des Blutes }
+        distractors: [bilden Insulin]
+        explanation: Rote Blutkörperchen bringen Sauerstoff, weiße wehren Erreger ab, Blutplättchen verschließen Wunden, und das Plasma ist der flüssige Teil des Blutes. Insulin entsteht in der Bauchspeicheldrüse, nicht im Blut.
+        links:
+          - { title: Blut (Wikipedia), url: "https://de.wikipedia.org/wiki/Blut" }
+          - { title: Erythrozyten (Wikipedia), url: "https://de.wikipedia.org/wiki/Erythrozyten" }
+          - { title: Blutplasma (Wikipedia), url: "https://de.wikipedia.org/wiki/Blutplasma" }
+      - type: single-choice
+        id: blut-impfung-wirkung
+        text: Wie hilft dir eine Impfung?
+        options:
+          - text: Das Immunsystem lernt einen Erreger kennen und kann ihn später schneller bekämpfen.
+            correct: true
+            info: So funktioniert eine Impfung. Der Impfstoff enthält abgeschwächte oder abgetötete Erreger oder Teile davon. Daraus bildet das Immunsystem Gedächtniszellen.
+            link: { title: Impfung (Wikipedia), url: "https://de.wikipedia.org/wiki/Impfung" }
+          - text: Sie tötet alle Bakterien im Körper ab.
+            correct: false
+            info: Das tut eine Impfung nicht. Gegen Bakterien in einem kranken Körper helfen Antibiotika. Eine Impfung bereitet das Immunsystem vor.
+          - text: Sie gibt dem Körper zusätzliche rote Blutkörperchen.
+            correct: false
+            info: Ein Impfstoff enthält keine Blutkörperchen. Rote Blutkörperchen entstehen im Knochenmark.
+        explanation: Eine Impfung trainiert das Immunsystem. Es bildet Gedächtniszellen, die bei einer späteren Ansteckung schnell reagieren.
+        hint: Denke an das Wort Gedächtnis.
+        links:
+          - { title: Impfung (Wikipedia), url: "https://de.wikipedia.org/wiki/Impfung" }
+          - { title: Immunsystem (Wikipedia), url: "https://de.wikipedia.org/wiki/Immunsystem" }
+      - type: true-false
+        id: blut-antibiotika-viren
+        text: Antibiotika sind Medikamente gegen Viren.
+        answer: false
+        explanation: Antibiotika wirken gegen Bakterien. Mittel gegen Viren sind eine andere Gruppe von Medikamenten. Das Penicillin kommt von einem Schimmelpilz.
+        links:
+          - { title: Antibiotikum (Wikipedia), url: "https://de.wikipedia.org/wiki/Antibiotikum" }
+          - { title: Viren (Wikipedia), url: "https://de.wikipedia.org/wiki/Viren" }
+      - type: single-choice
+        id: blut-calcium-vitamin
+        text: Welchen Stoff braucht der Körper, damit er Calcium für feste Knochen nutzen kann?
+        options:
+          - text: Vitamin D
+            correct: true
+            info: Vitamin D steuert den Calcium-Haushalt und hilft beim Aufbau der Knochen. Die Haut bildet es mit Hilfe von Sonnenlicht.
+            link: { title: Vitamin D (Wikipedia), url: "https://de.wikipedia.org/wiki/Vitamin_D" }
+          - text: Vitamin C
+            correct: false
+            info: Vitamin C steckt in Obst und Gemüse. Bei Mangel entsteht Skorbut, eine Krankheit des Bindegewebes.
+          - text: Eisen
+            correct: false
+            info: Eisen steckt im Hämoglobin der roten Blutkörperchen und hilft beim Sauerstofftransport. Für die Aufnahme von Calcium ist es nicht zuständig.
+        explanation: Ohne genug Vitamin D kann der Körper Calcium schlecht aufnehmen. Kinder können dann Rachitis bekommen. Dabei sind die Knochen verbogen und schmerzen.
+        hint: Ein Vitamin entsteht in der Haut, wenn Sonnenlicht darauf fällt.
+        links:
+          - { title: Vitamin D (Wikipedia), url: "https://de.wikipedia.org/wiki/Vitamin_D" }
+          - { title: Calcium (Wikipedia), url: "https://de.wikipedia.org/wiki/Calcium" }
+      - type: single-choice
+        id: blut-insulin-organ
+        text: Welches Organ bildet das Hormon Insulin?
+        options:
+          - text: die Bauchspeicheldrüse
+            correct: true
+            info: Insulin entsteht in besonderen Zellen der Bauchspeicheldrüse. Es senkt den Blutzucker.
+            link: { title: Insulin (Wikipedia), url: "https://de.wikipedia.org/wiki/Insulin" }
+          - text: die Schilddrüse
+            correct: false
+            info: Die Schilddrüse bildet andere Hormone, die Schilddrüsenhormone. Insulin gehört nicht dazu.
+          - text: die Nebenniere
+            correct: false
+            info: Die Nebenniere bildet zum Beispiel Adrenalin. Insulin bildet sie nicht.
+        explanation: Alle drei Organe bilden Hormone. Insulin kommt aus der Bauchspeicheldrüse und senkt den Blutzucker.
+        links:
+          - { title: Insulin (Wikipedia), url: "https://de.wikipedia.org/wiki/Insulin" }
+          - { title: Hormon (Wikipedia), url: "https://de.wikipedia.org/wiki/Hormon" }

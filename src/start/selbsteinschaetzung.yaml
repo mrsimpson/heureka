@@ -1,0 +1,280 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Selbsteinschätzung
+description: Zwölf Fragen quer durch alle drei Bereiche und eine Auswertung, die dir sagt, wo du noch üben solltest.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: Hier siehst du, wo du schon fit bist. Beantworte alle zwölf Fragen so, wie im Wettbewerb, und zähle am Ende deine richtigen Antworten. Die Auswertung sagt dir, welche Themen du dir zuerst ansehen kannst.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: section
+        id: se-mensch-tier
+        title: Mensch und Tier
+        blocks:
+          - type: single-choice
+            id: se-tiere-eierlegendes-saeugetier
+            text: Welches dieser Tiere ist ein Säugetier und legt trotzdem Eier?
+            options:
+              - text: Schnabeltier
+                correct: true
+                info: Das Schnabeltier gehört zu den eierlegenden Säugetieren. Das Weibchen legt meist drei weiche Eier und säugt die Jungen später mit Milch.
+                link:
+                  title: Schnabeltier (Wikipedia)
+                  url: https://de.wikipedia.org/wiki/Schnabeltier
+              - text: Delfin
+                correct: false
+                info: Der Delfin ist ein Säugetier, aber er legt keine Eier. Wie alle Wale bringt er ein einziges Junges lebend zur Welt.
+              - text: Pinguin
+                correct: false
+                info: Der Pinguin legt zwar Eier, aber er ist ein Vogel und kein Säugetier.
+            explanation: Fast alle Säugetiere gebären lebende Junge. Das Schnabeltier gehört zu den wenigen Ausnahmen. Es legt Eier und säugt seine Jungen.
+            hint: Zwei Tiere legen Eier oder gebären lebend. Nur bei einem passt beides zur Gruppe der Säugetiere.
+            links:
+              - title: Säugetiere (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Säugetiere
+              - title: Delfine (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Delfine
+          - type: single-choice
+            id: se-blut-impfung-wirkung
+            text: Wie hilft dir eine Impfung?
+            options:
+              - text: Das Immunsystem lernt einen Erreger kennen und kann ihn später schneller bekämpfen.
+                correct: true
+                info: So funktioniert eine Impfung. Der Impfstoff enthält abgeschwächte oder abgetötete Erreger oder Teile davon. Daraus bildet das Immunsystem Gedächtniszellen.
+                link:
+                  title: Impfung (Wikipedia)
+                  url: https://de.wikipedia.org/wiki/Impfung
+              - text: Sie tötet alle Bakterien im Körper ab.
+                correct: false
+                info: Das tut eine Impfung nicht. Gegen Bakterien in einem kranken Körper helfen Antibiotika. Eine Impfung bereitet das Immunsystem vor.
+              - text: Sie gibt dem Körper zusätzliche rote Blutkörperchen.
+                correct: false
+                info: Ein Impfstoff enthält keine Blutkörperchen. Rote Blutkörperchen entstehen im Knochenmark.
+            explanation: Eine Impfung trainiert das Immunsystem. Es bildet Gedächtniszellen, die bei einer späteren Ansteckung schnell reagieren.
+            hint: Denke an das Wort Gedächtnis.
+            links:
+              - title: Impfung (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Impfung
+              - title: Immunsystem (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Immunsystem
+          - type: single-choice
+            id: se-atmen-niere-aufgabe
+            text: Was ist die wichtigste Aufgabe der Nieren?
+            options:
+              - text: Sie filtern das Blut und bilden Harn.
+                correct: true
+                info: Die Nieren filtern das Blut und bilden daraus den Harn. Sie regeln auch den Wasserhaushalt des Körpers.
+                link:
+                  title: Niere (Wikipedia)
+                  url: https://de.wikipedia.org/wiki/Niere
+              - text: Sie nehmen Sauerstoff aus der Luft auf.
+                correct: false
+                info: Sauerstoff wird in den Lungenbläschen aufgenommen. Die Nieren liegen weit weg von den Atemwegen.
+              - text: Sie wandeln Reize in Nervensignale um.
+                correct: false
+                info: Das machen die Sinneszellen in den Sinnesorganen, zum Beispiel im Auge. Die Nieren sind kein Sinnesorgan.
+            explanation: Die Nieren filtern das Blut. Aus etwa 180 Litern Primärharn am Tag entsteht weniger als 2 Liter Urin.
+            hint: Denke an das Wort Harn.
+            links:
+              - title: Niere (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Niere
+              - title: Sinnesorgan (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Sinnesorgan
+          - type: single-choice
+            id: se-blut-calcium-vitamin
+            text: Welchen Stoff braucht der Körper, damit er Calcium für feste Knochen nutzen kann?
+            options:
+              - text: Vitamin D
+                correct: true
+                info: Vitamin D steuert den Calcium-Haushalt und hilft beim Aufbau der Knochen. Die Haut bildet es mit Hilfe von Sonnenlicht.
+                link:
+                  title: Vitamin D (Wikipedia)
+                  url: https://de.wikipedia.org/wiki/Vitamin_D
+              - text: Vitamin C
+                correct: false
+                info: Vitamin C steckt in Obst und Gemüse. Bei Mangel entsteht Skorbut, eine Krankheit des Bindegewebes.
+              - text: Eisen
+                correct: false
+                info: Eisen steckt im Hämoglobin der roten Blutkörperchen und hilft beim Sauerstofftransport. Für die Aufnahme von Calcium ist es nicht zuständig.
+            explanation: Ohne genug Vitamin D kann der Körper Calcium schlecht aufnehmen. Kinder können dann Rachitis bekommen. Dabei sind die Knochen verbogen und schmerzen.
+            hint: Ein Vitamin entsteht in der Haut, wenn Sonnenlicht darauf fällt.
+            links:
+              - title: Vitamin D (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Vitamin_D
+              - title: Calcium (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Calcium
+      - type: section
+        id: se-natur-umwelt
+        title: Natur und Umwelt
+        blocks:
+          - type: single-choice
+            id: se-planeten-weltall-kerze
+            text: Warum würde eine Kerze im offenen Weltraum nicht brennen?
+            options:
+              - text: Dort ist es fast leer und es gibt keinen Sauerstoff für die Flamme.
+                correct: true
+                info: Feuer braucht Sauerstoff. Im Weltraum gibt es fast keine Teilchen, also auch keine Luft.
+              - text: Dort ist es immer zu kalt.
+                correct: false
+                info: Dem leeren Raum selbst lässt sich keine Temperatur zuordnen. Die Kälte ist nicht der Grund, sondern der fehlende Sauerstoff.
+              - text: Dort ist es immer zu heiß.
+                correct: false
+                info: Auch das ist es nicht. Weil so wenige Teilchen da sind, geben sie kaum Wärme ab. Entscheidend ist der fehlende Sauerstoff.
+            explanation: Eine Flamme verbrennt den Brennstoff mit Sauerstoff. Im Weltraum fehlt er, weil dort ein Hochvakuum herrscht.
+            links:
+              - title: Weltraum (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Weltraum
+              - title: Verbrennung (Chemie) (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Verbrennung_(Chemie)
+              - title: Weltall (Klexikon)
+                url: https://klexikon.zum.de/wiki/Weltall
+          - type: single-choice
+            id: se-sonne-erde-mond-tag-nacht
+            text: Wodurch entstehen Tag und Nacht?
+            options:
+              - text: Die Erde dreht sich einmal am Tag um ihre eigene Achse.
+                correct: true
+                info: Dabei wird immer ein anderer Teil der Erde von der Sonne beleuchtet.
+              - text: Die Erde umkreist die Sonne.
+                correct: false
+                info: Dafür braucht die Erde ein ganzes Jahr. Das erklärt das Jahr, nicht den Wechsel von Tag und Nacht.
+              - text: Der Mond schiebt sich vor die Sonne.
+                correct: false
+                info: Das passiert nur bei einer Sonnenfinsternis und nur selten und kurz. Tag und Nacht gibt es jeden Tag.
+            explanation: Die Erde dreht sich in einem Tag einmal um sich selbst. Für einmal um die Sonne braucht sie ein Jahr.
+            links:
+              - title: Erde (Klexikon)
+                url: https://klexikon.zum.de/wiki/Erde
+              - title: Erde (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Erde
+          - type: single-choice
+            id: se-wasser-wetter-eisberg
+            text: Ein Eisberg schwimmt im Meer. Wo liegt der größte Teil von ihm?
+            options:
+              - text: Über dem Wasser, nur die Unterseite taucht ein.
+                correct: false
+                info: Das ist nicht so. Eis ist leichter als Wasser und schwimmt, aber nur ein kleiner Teil ragt heraus.
+              - text: Etwa zur Hälfte über und zur Hälfte unter dem Wasser.
+                correct: false
+                info: So viel schaut nicht heraus. Nur ungefähr ein Zehntel ragt über das Wasser.
+              - text: Unter Wasser, nur die Spitze schaut heraus.
+                correct: true
+                info: Das stimmt. Etwa 90 Prozent eines Eisbergs liegen unter dem Wasser.
+            explanation: Eis ist leichter als Wasser und schwimmt deshalb. Der größte Teil, etwa 90 Prozent, liegt aber unter Wasser. Der Eisberg besteht meist aus Süßwasser, weil er von einem Gletscher oder Schelfeis abbricht.
+            links:
+              - title: Eisberg (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Eisberg
+          - type: single-choice
+            id: se-natur-schuetzen-pilze
+            text: Wohin gehören Pilze?
+            options:
+              - text: Sie sind Pflanzen, denn sie wachsen im Boden.
+                correct: false
+                info: Pilze haben kein Blattgrün und betreiben keine Photosynthese. Dass sie am Boden wachsen, macht sie nicht zu Pflanzen.
+              - text: Sie bilden eine eigene Gruppe, weder Pflanzen noch Tiere.
+                correct: true
+                info: Das stimmt. Früher zählte man sie zu den Pflanzen. Heute gelten sie als eigene Gruppe, die den Tieren näher verwandt ist als den Pflanzen.
+              - text: Sie sind Tiere, denn sie stellen keinen eigenen Zucker her.
+                correct: false
+                info: Pilze stellen zwar keinen eigenen Zucker her, haben aber eigene Merkmale, zum Beispiel Zellwände mit Chitin. Darum gelten sie als eigene Gruppe.
+            explanation: Pilze sind weder Pflanzen noch Tiere. Sie haben keine Photosynthese und nehmen Nährstoffe aus ihrer Umgebung auf. Viele zersetzen Totes.
+            links:
+              - title: Pilze (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Pilze
+      - type: section
+        id: se-technik
+        title: Technik und Fortschritt
+        blocks:
+          - type: single-choice
+            id: se-internet-speicher
+            text: Du schaltest deinen Computer aus. Wo bleiben deine gespeicherten Fotos erhalten?
+            options:
+              - text: im Arbeitsspeicher
+                correct: false
+                info: Der Arbeitsspeicher hält nur Daten bereit, die gerade gebraucht werden. Beim Ausschalten sind sie weg.
+              - text: auf der Festplatte oder SSD
+                correct: true
+                info: Festplatte und SSD speichern dauerhaft, auch ohne Strom.
+              - text: im Prozessor
+                correct: false
+                info: Der Prozessor rechnet und führt Befehle aus. Zum dauerhaften Speichern dient er nicht.
+            explanation: Dateien liegen auf der Festplatte oder SSD. Der Arbeitsspeicher ist nur ein schneller Zwischenspeicher für laufende Programme.
+            links:
+              - title: Arbeitsspeicher (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Arbeitsspeicher
+              - title: Festplattenlaufwerk (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Festplattenlaufwerk
+              - title: Hauptprozessor (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Hauptprozessor
+          - type: single-choice
+            id: se-internet-ki
+            text: Eine KI gibt dir eine Antwort, die sehr sicher klingt. Was ist klug?
+            options:
+              - text: Der Antwort glauben, weil ein Computer immer richtig rechnet.
+                correct: false
+                info: Eine KI rechnet nicht nur, sie erzeugt Antworten aus ihrem Training. Dabei macht sie Fehler.
+              - text: Wichtige Antworten mit einer zweiten Quelle prüfen.
+                correct: true
+                info: Eine KI kann Antworten erfinden, die überzeugend klingen und falsch sind. Eine zweite Quelle hilft dir, das zu bemerken.
+              - text: Nur die Antworten prüfen, die unsicher klingen.
+                correct: false
+                info: Eine KI klingt oft auch dann sicher, wenn die Antwort falsch ist. Der Ton sagt nichts über die Richtigkeit.
+            explanation: KI ist hilfreich, kann aber Fehler machen. Wichtiges prüfst du immer nach.
+            links:
+              - title: Künstliche Intelligenz (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Künstliche_Intelligenz
+          - type: single-choice
+            id: se-energie-elektroauto
+            text: Welche Aussage über das Elektroauto stimmt?
+            options:
+              - text: Seine Reichweite ist im Sommer und im Winter immer genau gleich.
+                correct: false
+                info: Im Winter laufen Heizung und Klimaanlage und nehmen Energie aus dem Akku. Die Reichweite wird dann kleiner.
+              - text: Beim Bremsen geht alle Bewegungsenergie verloren.
+                correct: false
+                info: Der Elektromotor kann beim Bremsen einen Teil der Energie in den Akku zurückgeben.
+              - text: Ein Elektromotor treibt es an, und der Strom kommt aus einem Akku.
+                correct: true
+                info: Das stimmt. Der Akku wird an einer Ladestation oder Steckdose geladen.
+            explanation: Ein Elektroauto fährt mit einem Elektromotor und einem Akku. Die Reichweite hängt unter anderem davon ab, wie viel Energie die Heizung braucht.
+            links:
+              - title: Elektroauto (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Elektroauto
+          - type: single-choice
+            id: se-stoffe-kupfer
+            text: Warum werden Kupfer und Aluminium für Stromleitungen benutzt?
+            options:
+              - text: Sie werden von einem Magneten stark angezogen.
+                correct: false
+                info: Aluminium ist praktisch unmagnetisch, Kupfer im üblichen Sinn auch. Für Leitungen ist das nicht wichtig.
+              - text: Sie leiten den elektrischen Strom sehr gut.
+                correct: true
+                info: Kupfer und Aluminium gehören zu den besten Stromleitern.
+              - text: Sie speichern Strom wie ein Akku.
+                correct: false
+                info: Ein Draht leitet den Strom weiter. Energie speichert ein Akku.
+            explanation: Metalle leiten Strom gut. Kupfer und Aluminium sind dafür besonders geeignet.
+            links:
+              - title: Kupfer (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Kupfer
+              - title: Aluminium (Wikipedia)
+                url: https://de.wikipedia.org/wiki/Aluminium
+  - type: section
+    id: auswertung
+    title: Auswertung
+    blocks:
+      - type: note
+        title: So wertest du aus
+        blocks:
+          - type: text
+            text: |-
+              Zähle deine richtigen Antworten, am besten getrennt nach den drei Bereichen unten: je vier Fragen.
+
+              - **0 bis 1 richtig in einem Bereich:** Starte dort mit dem Kapitel [Mensch und Tier](/mensch-tier/), [Natur und Umwelt](/natur-umwelt/) oder [Technik und Fortschritt](/technik/).
+              - **2 bis 3 richtig:** Schau dir die Seiten dieses Bereichs an und löse die Übungen.
+              - **4 richtig:** Gut gemacht! Übe die Technik im Kapitel [Denken wie ein Forscher](/denken/).

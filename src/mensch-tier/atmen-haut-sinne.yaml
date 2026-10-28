@@ -1,0 +1,231 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Atmen, Haut und Sinne
+description: Weg der Luft und Lungenbläschen, Haut, Niere, Nerven und Sinne, Knochen und Muskeln.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Dein Körper nimmt ständig Luft auf, filtert dein Blut und meldet dem Gehirn, was um dich herum
+          passiert. Hier lernst du den Weg der Atemluft, die Aufgaben von Haut und Niere und den Weg eines Reizes
+          zum Gehirn. Dazu kommen Knochen und Muskeln. Eine Zeichnung der Atemwege übst du selbst.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: section
+        id: atmung
+        title: Lunge und Atmung
+        blocks:
+          - type: text
+            text: |
+              Die Luft nimmt diesen Weg: Sie strömt durch den **Kehlkopf** in die **Luftröhre**. Die Luftröhre ist
+              bei Erwachsenen 10 bis 12 Zentimeter lang. Knorpelspangen halten sie offen. Feine Härchen
+              schieben Schleim und Staub nach oben. Dann teilt sich die Luftröhre in zwei **Hauptbronchien**.
+              Sie verzweigen sich in immer kleinere Bronchien. Am Ende liegen die **Lungenbläschen**.
+          - type: labelled-figure
+            image: images/mt-atemwege.svg
+            alt: "Schematische Zeichnung der Atemwege: Eine senkrechte Luftröhre (A) teilt sich in zwei Hauptbronchien (B), die in die beiden Lungenflügel (C) führen. Rechts oben zeigt ein vergrößerter Kreis die Lungenbläschen (D), kleine Bläschen mit roten Blutgefäßen. Unter den Lungen liegt das gewölbte Zwerchfell (E)."
+            caption: Die Atemwege im Überblick. Folge dem Weg der Luft von oben nach unten.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            labels:
+              - { marker: A, x: 50, y: 25, text: Luftröhre }
+              - { marker: B, x: 57.5, y: 50, text: Hauptbronchus }
+              - { marker: C, x: 67.5, y: 37.5, text: Lungenflügel }
+              - { marker: D, x: 85, y: 17.5, text: Lungenbläschen }
+              - { marker: E, x: 20, y: 85.75, text: Zwerchfell }
+          - type: definition
+            term: Lungenbläschen
+            explanation: Lungenbläschen sind winzige Bläschen am Ende der Atemwege. Ihre Wand ist hauchdünn. Hier gelangt Sauerstoff ins Blut, und Kohlenstoffdioxid gelangt aus dem Blut in die Luft.
+          - type: text
+            text: |
+              **Gasaustausch:** In den Lungenbläschen geht Sauerstoff aus der Luft ins Blut. Das Blut gibt
+              Kohlenstoffdioxid ab, das du ausatmest. Alle Lungenbläschen zusammen haben eine sehr große Fläche,
+              geschätzt 80 bis 120 Quadratmeter.
+          - type: table
+            caption: Die Luft beim Einatmen und beim Ausatmen
+            header: [Gas, Eingeatmete Luft, Ausgeatmete Luft]
+            rowHeaders: true
+            rows:
+              - [Sauerstoff, etwa 21 %, etwa 17 %]
+              - [Kohlenstoffdioxid, "etwa 0,04 %", etwa 4 %]
+          - type: text
+            text: |
+              Die Lunge hat selbst keine Muskeln. Das **Zwerchfell** ist der wichtigste Atemmuskel. Beim Einatmen
+              zieht es sich zusammen und senkt sich nach unten. Der Brustraum wird größer, und Luft strömt in die
+              Lunge. Der rechte Lungenflügel hat drei Lappen, der linke zwei.
+      - type: section
+        id: haut-niere
+        title: Haut und Niere
+        blocks:
+          - type: text
+            text: |
+              **Die Haut** ist das größte Organ des Menschen. Bei einem Erwachsenen ist sie fast zwei
+              Quadratmeter groß. Sie hat mehrere Aufgaben:
+
+              - Sie schützt vor Verletzungen und vor Krankheitserregern.
+              - Sie hilft, die Körpertemperatur zu halten. Schweiß kühlt, wenn er verdunstet.
+              - Sie spürt Berührung, Druck, Schmerz und Temperatur.
+              - Mit Sonnenlicht bildet sie Vitamin D.
+
+              Die Haut hat drei Schichten: Oberhaut, Lederhaut und Unterhaut.
+          - type: text
+            text: |
+              **Die Nieren** filtern das Blut. Du hast zwei Nieren, jede ist etwa 10 bis 12 Zentimeter lang. Aus
+              dem Blut entsteht Harn. Er fließt durch die Harnleiter in die Harnblase. Von dort wird er über
+              die Harnröhre ausgeschieden. Die Nieren regeln auch den Wasserhaushalt des Körpers: Aus rund 180
+              Litern Primärharn am Tag wird weniger als 2 Liter Urin.
+      - type: section
+        id: nerven-sinne
+        title: Nerven und Sinne
+        blocks:
+          - type: definition
+            term: Reiz
+            explanation: Ein Reiz ist etwas, das ein Sinnesorgan aufnehmen kann, zum Beispiel Licht, ein Ton oder eine Berührung.
+          - type: text
+            text: |
+              Sinneszellen wandeln einen Reiz in elektrische Signale um. **Nervenzellen** leiten die Signale zum
+              Gehirn. Dort entsteht der Eindruck, den du wahrnimmst. Das Gehirn schickt auch Befehle über Nerven
+              zu den Muskeln. Gehirn und Rückenmark bilden zusammen das zentrale Nervensystem.
+          - type: table
+            caption: Sinnesorgane und ihre Reize
+            header: [Sinnesorgan, Reiz]
+            rowHeaders: true
+            rows:
+              - [Auge, Licht]
+              - [Ohr, Schall]
+              - [Nase, Gerüche]
+              - [Zunge, Geschmack]
+              - [Haut, "Berührung, Druck, Temperatur"]
+      - type: section
+        id: knochen-muskeln
+        title: Knochen und Muskeln
+        blocks:
+          - type: text
+            text: |
+              Ein Erwachsener hat etwas über 200 Knochen. Sie halten den Körper aufrecht und schützen die
+              Organe. In den Knochen sind auch Calcium und Phosphat gespeichert. Das Skelett braucht mehrere
+              Jahre, bis es ausgewachsen ist, etwa bis zum 20. Lebensjahr.
+
+              Die **Skelettmuskeln** bewegen den Körper, zum Beispiel Arme und Beine. Du kannst sie bewusst
+              steuern. Sie sind über Sehnen am Skelett befestigt. Der Herzmuskel ist anders: Du kannst ihn nicht
+              bewusst steuern.
+      - type: example
+        title: So prüfst du eine „falsch“-Frage zur Atmung
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage ist falsch?
+
+              - A: Beim Einatmen senkt sich das Zwerchfell.
+              - B: Die Lunge saugt die Luft mit eigenen Muskeln ein.
+              - C: Sauerstoff geht in den Lungenbläschen ins Blut.
+          - type: text
+            text: |
+              **Lösung durch Denken:** Zwei Aussagen stimmen, eine nicht. Prüfe jede einzeln. A stimmt: Das
+              Zwerchfell zieht sich zusammen und senkt sich. C stimmt: Dafür sind die Lungenbläschen da. B
+              passt nicht. Die Lunge hat keine Muskeln, das Zwerchfell und die Muskeln zwischen den Rippen
+              bewegen sie. B ist also falsch und damit die gesuchte Antwort.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: atmen-bild-beschriften
+        text: Ordne jedem Buchstaben im Bild den richtigen Namen zu.
+        material:
+          - type: labelled-figure
+            image: images/mt-atemwege.svg
+            alt: "Schematische Zeichnung der Atemwege mit fünf Markern: A Luftröhre (senkrechtes Rohr oben in der Mitte), B Hauptbronchus (eine der beiden Abzweigungen), C Lungenflügel (rosa Fläche rechts), D Lungenbläschen (kleine Bläschen im vergrößerten Kreis rechts oben), E Zwerchfell (gewölbtes Band unter den Lungen)."
+            caption: Die Atemwege. Schau auf Form und Ort jedes Teils.
+            legend: false
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            labels:
+              - { marker: A, x: 50, y: 25, text: Luftröhre }
+              - { marker: B, x: 57.5, y: 50, text: Hauptbronchus }
+              - { marker: C, x: 67.5, y: 37.5, text: Lungenflügel }
+              - { marker: D, x: 85, y: 17.5, text: Lungenbläschen }
+              - { marker: E, x: 20, y: 85.75, text: Zwerchfell }
+        pairsFrom: material
+        distractors: [Speiseröhre]
+        explanation: Die Luftröhre ist das lange Rohr oben und teilt sich in die Hauptbronchien. Die Lungenflügel sind die großen Flächen. Im vergrößerten Kreis siehst du die Lungenbläschen. Unter den Lungen liegt das Zwerchfell, der wichtigste Atemmuskel.
+        links:
+          - { title: Lunge (Wikipedia), url: "https://de.wikipedia.org/wiki/Lunge" }
+          - { title: Luftröhre (Wikipedia), url: "https://de.wikipedia.org/wiki/Luftröhre" }
+          - { title: Zwerchfell (Wikipedia), url: "https://de.wikipedia.org/wiki/Zwerchfell" }
+      - type: single-choice
+        id: atmen-aussage-falsch
+        text: Welche Aussage über die Atmung ist falsch?
+        options:
+          - text: Beim Einatmen senkt sich das Zwerchfell.
+            correct: false
+            info: Das stimmt. Das Zwerchfell zieht sich zusammen und senkt sich. So wird der Brustraum größer.
+          - text: Die ausgeatmete Luft enthält mehr Kohlenstoffdioxid als die eingeatmete Luft.
+            correct: false
+            info: Das stimmt. Eingeatmet sind es etwa 0,04 Prozent, ausgeatmet etwa 4 Prozent.
+          - text: Die Lunge zieht die Luft mit eigenen Muskeln ein.
+            correct: true
+            info: Das ist falsch. Die Lunge hat keine eigenen Muskeln. Das Zwerchfell und die Zwischenrippenmuskeln bewegen sie.
+        explanation: Die Lunge enthält keine Muskeln. Das Zwerchfell und die Muskeln zwischen den Rippen sorgen für die Bewegung.
+        hint: Frage dich bei jeder Aussage, wer beim Atmen die Arbeit macht.
+        links:
+          - { title: Lunge (Wikipedia), url: "https://de.wikipedia.org/wiki/Lunge" }
+          - { title: Atmung (Wikipedia), url: "https://de.wikipedia.org/wiki/Atmung" }
+      - type: ordering
+        id: atmen-weg-der-luft
+        text: Bringe die Stationen der Atemluft in die richtige Reihenfolge, die erste Station zuerst.
+        items: [Kehlkopf, Luftröhre, Bronchien, Lungenbläschen]
+        explanation: Die Luft strömt vom Kehlkopf durch die Luftröhre. Diese teilt sich in die Bronchien, die zu den Lungenbläschen führen. Nur dort geht Sauerstoff ins Blut.
+        links:
+          - { title: Kehlkopf (Wikipedia), url: "https://de.wikipedia.org/wiki/Kehlkopf" }
+          - { title: Lunge (Wikipedia), url: "https://de.wikipedia.org/wiki/Lunge" }
+      - type: single-choice
+        id: atmen-niere-aufgabe
+        text: Was ist die wichtigste Aufgabe der Nieren?
+        options:
+          - text: Sie filtern das Blut und bilden Harn.
+            correct: true
+            info: Die Nieren filtern das Blut und bilden daraus den Harn. Sie regeln auch den Wasserhaushalt des Körpers.
+            link: { title: Niere (Wikipedia), url: "https://de.wikipedia.org/wiki/Niere" }
+          - text: Sie nehmen Sauerstoff aus der Luft auf.
+            correct: false
+            info: Sauerstoff wird in den Lungenbläschen aufgenommen. Die Nieren liegen weit weg von den Atemwegen.
+          - text: Sie wandeln Reize in Nervensignale um.
+            correct: false
+            info: Das machen die Sinneszellen in den Sinnesorganen, zum Beispiel im Auge. Die Nieren sind kein Sinnesorgan.
+        explanation: Die Nieren filtern das Blut. Aus etwa 180 Litern Primärharn am Tag entsteht weniger als 2 Liter Urin.
+        hint: Denke an das Wort Harn.
+        links:
+          - { title: Niere (Wikipedia), url: "https://de.wikipedia.org/wiki/Niere" }
+          - { title: Sinnesorgan (Wikipedia), url: "https://de.wikipedia.org/wiki/Sinnesorgan" }
+      - type: true-false
+        id: atmen-haut-organ
+        text: Die Haut ist das größte Organ des Menschen.
+        answer: true
+        explanation: Die Haut ist bei einem Erwachsenen fast zwei Quadratmeter groß und das größte Organ. Sie schützt den Körper, hilft bei der Temperatur und spürt Berührungen.
+        links:
+          - { title: Haut (Medi-Karriere), url: "https://www.medi-karriere.de/wiki/haut" }
+          - { title: Haut (Wikipedia), url: "https://de.wikipedia.org/wiki/Haut" }
+      - type: single-choice
+        id: atmen-reiz-zum-gehirn
+        text: Du hörst einen lauten Knall. Wie kommt die Information zum Gehirn?
+        options:
+          - text: Sinneszellen im Ohr wandeln den Reiz in Signale um, Nervenzellen leiten sie zum Gehirn.
+            correct: true
+            info: So läuft es bei allen Sinnen. Sinneszellen machen aus dem Reiz elektrische Signale, und Nervenzellen leiten sie ans Gehirn.
+            link: { title: Sinnesorgan (Wikipedia), url: "https://de.wikipedia.org/wiki/Sinnesorgan" }
+          - text: Das Blut trägt den Knall zum Gehirn.
+            correct: false
+            info: Das Blut transportiert zum Beispiel Sauerstoff, Nährstoffe und Hormone. Reize leiten die Nerven weiter.
+          - text: Die Muskeln leiten den Knall zum Gehirn.
+            correct: false
+            info: Muskeln bewegen den Körper. Ihre Befehle bekommen sie vom Gehirn über Nerven.
+        explanation: Reize werden von Sinneszellen in elektrische Signale umgewandelt. Nervenzellen leiten sie zum Gehirn.
+        hint: Wer ist im Körper für das Weiterleiten von Signalen zuständig?
+        links:
+          - { title: Nervenzelle (Wikipedia), url: "https://de.wikipedia.org/wiki/Nervenzelle" }
+          - { title: Nervensystem (Wikipedia), url: "https://de.wikipedia.org/wiki/Nervensystem" }
