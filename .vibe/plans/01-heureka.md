@@ -91,6 +91,7 @@ _Alle Aufgaben von Explore sind erledigt, siehe „Completed“._
 - Occasion: Vorbereitung auf den Schülerwettbewerb „Heureka! Mensch und Natur“ (Berlin, Oktober/November, Klassenstufen 5 und 6, 45 Minuten, 45 Fragen mit je drei Antworten, Einzelwettbewerb), für den Sohn des Creators.
 - Learners: Naturwissenschaften (Mensch und Tier, Natur und Umwelt, Technik und Fortschritt); Klassenstufe 5 oder 6 (Vorschlag: Aufgaben für beide, wie die Ausschreibung).
 - Material: Aufgabenhefte der Vorjahre 2024 und 2025 (PDF), alle drei Themenbereiche zählen.
+- Changes: Veröffentlichung über das eigene Repository Mrsimpson/Heureka und den Katalog statt über das Formular von lernapps practice (Creator: Oliver); Zeitdruck kein Problem, GitHub Actions des Tooling veröffentlichen auf die Pages des Repositorys.
 - Changes: Kein Lehrplanbezug: Heureka ist ein naturwissenschaftlicher Wettbewerb, kein Schulstoff. Der Sohn soll auf den Wettbewerb eingestimmt werden und dafür ähnliche Knobelaufgaben bekommen.
   Vorschlag bestätigt („Passt“). Die Zeit ist nicht wichtig; es geht um die Inhalte und die Art, wie die Fragen gestellt sind.
 
@@ -209,30 +210,32 @@ _Alle Aufgaben von Explore sind erledigt, siehe „Completed“._
 ## Commit
 
 <!--
-- Hand the app over: the creator submits the ZIP file of `src/` through the form of lernapps/practice. GitHub checks
-  it, builds it and comments the address.
-- Skill: `lernapps-practice-submit`.
+- Put the app on GitHub, publish it with the creator's yes, then list it. A push to `main` publishes.
+- Open the pull requests (to `main`, to the catalog) without asking: they publish nothing; their preview and result
+  are what the creator decides on.
+- Skills: `lernapps-github`, `lernapps-commit`, `lernapps-listing`.
+- Der Creator hat sich gegen das Formular von lernapps practice entschieden: Das Repository Mrsimpson/Heureka
+  (öffentlich, leer angelegt) veröffentlicht die App über GitHub Pages; danach folgt der Katalogeintrag.
 -->
 
 ### Tasks
 
-- [ ] `grep '^phase:'` prints `phase: commit`; else set it.
-- [ ] Install the skill of Commit: `npx --yes skills add lernapps/practice -y -s lernapps-practice-submit`.
-- [ ] Load skill `lernapps-practice-submit`. Show the creator every page of the built app as it says.
-- [ ] **Checkpoint:** pages, and the declarations. The creator has seen every page; highlight what you decided in Code
-      ("(Vorschlag)" under "Key decisions"); go through the three declarations of the form with them, as the skill
-      says. Stop and wait for a yes. Changes → change, build, check,
-      show the changed pages again.
-- [ ] Make the ZIP file of `src/` as the skill says.
-- [ ] **Checkpoint:** submit. Give the creator the ZIP file and the link to the form as the skill says; wait for the
-      bot's comment.
-- [ ] The comment names problems → correct them in `src/`, `npm run build` and `npm run check`, a new ZIP file; the
-      creator attaches it as a comment of the issue. Repeat until the comment gives the address.
-- [ ] The creator asks for a change after the address → add a task here; change, build, check and attach as above.
-      Done only when the bot's new comment is there and the preview shows the change.
-- [ ] **Checkpoint:** address. The comment gives the address: open it, confirm the app shows, give the creator the
-      address and what the skill says about two weeks and the 👍.
+- [x] `grep '^phase:'` prints `phase: commit`; else set it.
+- [ ] Load skill `lernapps-github`. Repo and Pages as it says: Repo `Mrsimpson/Heureka` gegeben; every click only the
+      creator can make in one message.
+- [ ] Push `work`, open the preview pull request, see its checks to green as the skill says.
+- [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App"; ask
+      whether it may go online; put any open click into the same question. Wait for the yes.
+- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit
+      with the message from this plan, the run of `Pages` watched to the end.
+- [ ] Open the address the job `deploy` printed; confirm the app shows. Use that address, never a derived one.
+- [ ] Load skill `lernapps-listing`. Complete the entry draft (e.g. the address).
 - [ ] Fill the retrospective.
+- [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
+- [ ] **Checkpoint:** list. Open the listing pull request as the skill says, without asking first: the pull request
+      is the review. See it to "bestanden", then show the creator the pull request and its result; change nothing in
+      it without their word.
+- [ ] Plan changed since its last push → commit it on `main`, push again.
 
 ### Completed
 

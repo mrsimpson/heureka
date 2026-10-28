@@ -72,6 +72,6 @@ als „in den Heften der letzten Jahre“; die Rate-Rechnung ist eine eigene Rec
 
 ## Rules learned from mistakes
 
-- Diese App wird über lernapps/practice eingereicht: eine Änderung ist ein neues ZIP im Issue; kein Push, kein Listing.
+- Diese App liegt im Repository Mrsimpson/Heureka und wird über GitHub Pages veröffentlicht; eine Änderung ist ein Increment-Plan mit Pull Request, danach Eintrag im Katalog.
 - Ein Doppelpunkt in einem unquotierten YAML-Wert bricht das Parsen: Titel mit Doppelpunkt in Anführungszeichen setzen.
 - `sources` in `src/app.yaml` darf nicht leer sein.
