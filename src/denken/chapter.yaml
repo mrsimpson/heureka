@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Denken wie ein Forscher
+summary: Mit den richtigen Tricks löst du auch Fragen, bei denen du die Antwort nicht sicher weißt.
+pages: [falsche-aussage, schaetzen-ausschliessen]

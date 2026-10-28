@@ -1,0 +1,177 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Natur schützen
+description: Ökosystem, Nachhaltigkeit, Treibhauseffekt, Müll und seine Abbauzeiten, Wald und Pilze.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Pflanzen, Tiere, Pilze und ihre Umgebung hängen eng zusammen. Wenn der Mensch eingreift, hat das Folgen. Hier
+          lernst du, was ein Ökosystem ist, was nachhaltig bedeutet und wie der Treibhauseffekt wirkt. Außerdem erfährst
+          du, wie lange Müll in der Natur bleibt und warum Pilze etwas Besonderes sind.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Ökosystem
+        explanation: Ein Ökosystem besteht aus einer Gemeinschaft von Lebewesen mehrerer Arten und ihrer unbelebten Umgebung. Beide tauschen ständig Stoffe und Energie aus. Beispiele sind ein Wald, ein See und eine Wiese.
+      - type: table
+        caption: Die drei Rollen der Lebewesen im Ökosystem
+        header: [Rolle, Was tun sie?, Beispiel]
+        rowHeaders: true
+        rows:
+          - [Produzenten, Sie bauen mit Licht aus einfachen Stoffen Nährstoffe auf., grüne Pflanzen]
+          - [Konsumenten, Sie fressen Produzenten oder andere Konsumenten., Pflanzenfresser und Fleischfresser]
+          - [Destruenten, Sie bauen Abgestorbenes ab und machen daraus wieder einfache Stoffe., Bakterien und Pilze]
+      - type: definition
+        term: Nachhaltigkeit
+        explanation: Nachhaltig handelt, wer Rohstoffe so nutzt, dass sich die Natur wieder erholen kann. Der Gedanke stammt aus der Forstwirtschaft. Man fällt nur so viel Holz, wie im Wald nachwächst. Nachhaltig heißt auch, dass spätere Generationen ihre Bedürfnisse noch erfüllen können.
+      - type: text
+        text: |
+          **Treibhauseffekt.** Die Lufthülle der Erde hält Wärme zurück, ähnlich wie das Glas eines Treibhauses. Das ist
+          ein **natürlicher** Vorgang und für uns lebenswichtig. Ohne ihn läge die mittlere Temperatur an der
+          Erdoberfläche bei etwa −18 °C. Mit ihm sind es etwa 15 °C. Wichtige Treibhausgase sind Wasserdampf,
+          Kohlenstoffdioxid und Methan.
+      - type: text
+        text: |
+          Der Mensch **verstärkt** diesen Effekt. Er verbrennt Kohle, Erdöl und Erdgas, dabei entsteht zusätzlich
+          Kohlenstoffdioxid. Auch Industrie und Landwirtschaft setzen Treibhausgase frei. Dadurch hält die Luft mehr
+          Wärme zurück als früher, und es wird wärmer. Merke dir: Der Treibhauseffekt an sich ist nicht schlecht, der
+          zusätzliche, vom Menschen gemachte ist das Problem.
+      - type: text
+        text: |
+          **Müll und Abbauzeiten.** Müll in der Natur verschwindet unterschiedlich schnell. Reste von Obst sind nach
+          wenigen Wochen abgebaut. Plastik und Metall bleiben Hunderte von Jahren, Glas sogar Tausende. Die Zahlen sind
+          Schätzungen und hängen vom Ort ab. Im Meer und an Land können sie verschieden sein. Entscheidend ist die
+          Größenordnung: Wochen, Jahre oder Jahrhunderte.
+      - type: table
+        caption: Grobe Abbauzeiten (Schätzwerte)
+        header: [Abfall, Abbauzeit]
+        rowHeaders: true
+        rows:
+          - [Apfelgehäuse, einige Wochen]
+          - [Plastiktüte, "100 bis 500 Jahre"]
+          - [Plastikflasche, "mehrere Hundert Jahre"]
+          - [Getränkedose aus Aluminium, "etwa 200 Jahre"]
+          - [Glasflasche, "Tausende Jahre"]
+      - type: text
+        text: |
+          **Bäume und Wald.** Bäume nehmen bei der Photosynthese Kohlenstoffdioxid und Wasser auf. Mit Licht stellen sie
+          daraus Traubenzucker her und geben Sauerstoff ab. Der Wald liefert viel Sauerstoff und speichert
+          Kohlenstoffdioxid. Er ist Lebensraum für viele Arten, liefert Holz und dient der Erholung.
+      - type: definition
+        term: Pilze
+        explanation: Pilze sind weder Pflanzen noch Tiere, sie bilden eine eigene Gruppe. Sie haben kein Blattgrün und können keine Photosynthese betreiben. Sie nehmen ihre Nährstoffe aus der Umgebung auf, viele zersetzen Totes.
+      - type: text
+        text: |
+          Was du im Wald als Pilz einsammelst, ist nur der Fruchtkörper. Der eigentliche Pilz ist ein feines Geflecht
+          im Boden oder im Holz, das Myzel. Der Fruchtkörper dient der Vermehrung. Pilze gehören zu den wichtigsten
+          Abbauern im Wald.
+      - type: example
+        title: So gehst du bei einer Frage vor
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage über Pilze ist falsch?
+              A: Pilze können keine Photosynthese betreiben. B: Pilze sind Pflanzen, denn sie wachsen im Boden. C: Viele Pilze zersetzen abgestorbene Stoffe.
+          - type: text
+            text: |
+              **Schritt 1:** Gesucht ist die falsche Aussage.
+              **Schritt 2:** A prüfen. Pilze haben kein Blattgrün. A stimmt.
+              **Schritt 3:** C prüfen. Pilze und Bakterien bauen Abgestorbenes ab. C stimmt.
+              **Schritt 4:** B bleibt übrig. Dass etwas im Boden wächst, macht es nicht zur Pflanze. Pilze sind eine eigene Gruppe. B ist falsch und damit die Antwort.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: natur-schuetzen-treibhaus-falsch
+        text: Welche Aussage über den Treibhauseffekt ist falsch?
+        options:
+          - text: Ohne den natürlichen Treibhauseffekt wäre es auf der Erde viel kälter.
+            correct: false
+            info: Das stimmt. Ohne ihn läge die mittlere Temperatur an der Erdoberfläche bei etwa −18 °C statt bei etwa 15 °C.
+          - text: Wasserdampf, Kohlenstoffdioxid und Methan sind Treibhausgase.
+            correct: false
+            info: Das stimmt. Alle drei halten Wärme in der Lufthülle zurück.
+          - text: Den Treibhauseffekt gibt es erst, seit Menschen Kohle und Erdöl verbrennen.
+            correct: true
+            info: Das ist falsch. Der Treibhauseffekt ist ein natürlicher Vorgang. Durch das Verbrennen fossiler Brennstoffe wird er nur verstärkt.
+        explanation: Der Treibhauseffekt ist natürlich und nötig. Zum Problem wird die Verstärkung durch zusätzliche Treibhausgase, vor allem aus der Verbrennung von Kohle, Erdöl und Erdgas.
+        hint: Überlege, ob es ohne Menschen auf der Erde warm genug zum Leben wäre.
+        links:
+          - { title: Treibhauseffekt (Wikipedia), url: "https://de.wikipedia.org/wiki/Treibhauseffekt" }
+      - type: single-choice
+        id: natur-schuetzen-pilze
+        text: Wohin gehören Pilze?
+        options:
+          - text: Sie sind Pflanzen, denn sie wachsen im Boden.
+            correct: false
+            info: Pilze haben kein Blattgrün und betreiben keine Photosynthese. Dass sie am Boden wachsen, macht sie nicht zu Pflanzen.
+          - text: Sie bilden eine eigene Gruppe, weder Pflanzen noch Tiere.
+            correct: true
+            info: Das stimmt. Früher zählte man sie zu den Pflanzen. Heute gelten sie als eigene Gruppe, die den Tieren näher verwandt ist als den Pflanzen.
+          - text: Sie sind Tiere, denn sie stellen keinen eigenen Zucker her.
+            correct: false
+            info: Pilze stellen zwar keinen eigenen Zucker her, haben aber eigene Merkmale, zum Beispiel Zellwände mit Chitin. Darum gelten sie als eigene Gruppe.
+        explanation: Pilze sind weder Pflanzen noch Tiere. Sie haben keine Photosynthese und nehmen Nährstoffe aus ihrer Umgebung auf. Viele zersetzen Totes.
+        links:
+          - { title: Pilze (Wikipedia), url: "https://de.wikipedia.org/wiki/Pilze" }
+      - type: single-choice
+        id: natur-schuetzen-muell
+        text: Ein Spaziergänger lässt drei Dinge im Wald liegen. Welches ist zuerst abgebaut?
+        options:
+          - text: ein Apfelgehäuse
+            correct: true
+            info: Obstreste verrotten in einigen Wochen.
+          - text: eine Plastikflasche
+            correct: false
+            info: Plastik braucht mehrere Hundert Jahre, bis es sichtbar verschwindet. Reste bleiben noch länger.
+          - text: eine Getränkedose aus Aluminium
+            correct: false
+            info: Eine Aluminiumdose hält etwa 200 Jahre.
+        explanation: Natürliche Stoffe wie Obst werden von Pilzen und Bakterien schnell abgebaut. Plastik und Metall brauchen Jahrhunderte. Nimm deinen Müll darum immer mit.
+        links:
+          - {
+              title: So lange braucht Abfall zum Verrotten (Utopia),
+              url: "https://utopia.de/ratgeber/so-lange-braucht-abfall-um-zu-verrotten",
+            }
+          - { title: Ökosystem (Wikipedia), url: "https://de.wikipedia.org/wiki/Ökosystem" }
+      - type: single-choice
+        id: natur-schuetzen-nachhaltig
+        text: Wann nutzt man einen Wald nachhaltig?
+        options:
+          - text: Man fällt nur so viele Bäume, wie nachwachsen.
+            correct: true
+            info: So hat man den Begriff in der Forstwirtschaft geprägt. Der Wald kann sich dabei erholen.
+          - text: Man fällt alle Bäume auf einmal, damit schnell neue wachsen.
+            correct: false
+            info: Dann wächst nicht so viel nach, wie man entnommen hat. Das ist das Gegenteil von nachhaltig.
+          - text: Man nutzt niemals Holz, auch nicht aus alten Bäumen.
+            correct: false
+            info: Nachhaltig heißt nicht, nichts zu nutzen. Man nutzt nur so viel, dass sich die Natur erholen kann.
+        explanation: Nachhaltig ist, nur so viel zu nutzen, wie nachwächst. So bleibt der Wald auch für spätere Generationen erhalten.
+        links:
+          - { title: Nachhaltigkeit (Wikipedia), url: "https://de.wikipedia.org/wiki/Nachhaltigkeit" }
+      - type: matching
+        id: natur-schuetzen-rollen
+        text: Ordne jeder Rolle im Ökosystem das passende Beispiel zu. Ein Beispiel passt zu keiner Rolle.
+        pairs:
+          - { left: Produzent, right: grüne Pflanze }
+          - { left: Konsument, right: Pflanzenfresser }
+          - { left: Destruent, right: Pilz }
+        distractors: [Sonnenlicht]
+        explanation: Grüne Pflanzen sind Produzenten, denn sie bauen mit Licht Nährstoffe auf. Pflanzenfresser sind Konsumenten. Pilze und Bakterien bauen Abgestorbenes ab und sind Destruenten. Sonnenlicht ist keines von ihnen. Es ist Energie für die Pflanzen.
+        links:
+          - { title: Ökosystem (Wikipedia), url: "https://de.wikipedia.org/wiki/Ökosystem" }
+      - type: true-false
+        id: natur-schuetzen-baeume
+        text: Bäume nehmen Kohlenstoffdioxid auf und geben Sauerstoff ab.
+        answer: true
+        explanation: Bei der Photosynthese stellen grüne Pflanzen aus Kohlenstoffdioxid und Wasser mit Hilfe von Licht Traubenzucker her. Dabei entsteht Sauerstoff.
+        links:
+          - { title: Photosynthese (Wikipedia), url: "https://de.wikipedia.org/wiki/Photosynthese" }
+          - { title: Wald (Wikipedia), url: "https://de.wikipedia.org/wiki/Wald" }

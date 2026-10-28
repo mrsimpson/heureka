@@ -1,0 +1,201 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Stoffe und Messgeräte
+description: "Metalle, Recycling, Magnete und Magnetfeld, Messgeräte, Klone und Lötkolben."
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Metalle, Magnete und Messgeräte tauchen im Wettbewerb oft auf. Hier lernst du, was Metalle können und was
+          Recycling spart. Du erfährst, wie ein Magnet wirkt und welches Messgerät was misst. Zum Schluss gibt es
+          kurze Antworten zu Klonen und zum Lötkolben.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Metalle
+        explanation: |
+          Metalle glänzen und lassen sich verformen, ohne zu brechen. Sie leiten Strom und Wärme gut. Darum fühlt sich
+          Metall kühl an: Es leitet die Wärme deiner Hand schnell weg. Kupfer und Aluminium sind sehr gute
+          Stromleiter und werden für Stromleitungen benutzt. Mischungen aus Metallen heißen Legierungen, zum
+          Beispiel Bronze (Kupfer und Zinn).
+      - type: definition
+        term: Recycling
+        explanation: |
+          Beim Recycling werden alte Produkte und Stoffe aufbereitet, damit man sie wieder benutzen kann. Das spart
+          Rohstoffe, oft viel Energie und Abfall.
+      - type: table
+        caption: Was Recycling spart
+        header: [Stoff, Ersparnis]
+        rowHeaders: true
+        rows:
+          - [
+              Aluminium,
+              "Aus Schrott braucht man nur etwa 5 % der Energie, die für neues Aluminium aus Bauxit nötig ist.",
+            ]
+          - [Stahl, "Mit Stahlschrott spart man etwa 60 bis 75 % der Energie."]
+          - [
+              Papier,
+              "Recyclingpapier braucht etwa die Hälfte der Energie. Papier lässt sich aber nur etwa drei- bis achtmal recyceln, weil die Fasern kürzer werden.",
+            ]
+          - [Glas, "Altglas lässt sich beliebig oft einschmelzen."]
+      - type: definition
+        term: Magnet
+        explanation: |
+          Ein Magnet erzeugt ein Magnetfeld in seiner Umgebung. Jeder Magnet hat einen Nordpol und einen Südpol. An
+          den Polen ist die Kraft am stärksten.
+      - type: note
+        title: Anziehen und Abstoßen
+        blocks:
+          - type: text
+            text: |
+              - Verschiedene Pole ziehen sich an: Nordpol und Südpol.
+              - Gleiche Pole stoßen sich ab: Nordpol und Nordpol, ebenso Südpol und Südpol.
+      - type: text
+        text: |
+          **Das Magnetfeld** ist der Raum um einen Magneten, in dem er Kräfte ausübt. Feldlinien zeigen seine Richtung.
+          Außerhalb des Magneten laufen sie vom Nordpol zum Südpol. Die Erde hat auch ein Magnetfeld. Eine
+          Kompassnadel ist ein kleiner Magnet und richtet sich danach aus.
+
+          **Welche Stoffe sind magnetisch?** Im Alltag sind es vor allem Eisen, Nickel und Kobalt. Aluminium ist
+          praktisch unmagnetisch. Auch Kupfer ist es nicht im üblichen Sinn. Ein Elektromagnet ist eine Spule, durch
+          die Strom fließt. Er wirkt nur, solange Strom fließt.
+      - type: table
+        caption: Messgeräte und ihre Aufgabe
+        header: [Gerät, Es misst]
+        rowHeaders: true
+        rows:
+          - [Thermometer, die Temperatur]
+          - [Barometer, den Luftdruck]
+          - [Hygrometer, die Luftfeuchtigkeit]
+          - [Waage, das Gewicht (angegeben in Gramm oder Kilogramm)]
+          - [Tachometer, die Geschwindigkeit eines Fahrzeugs]
+      - type: definition
+        term: Klon
+        explanation: |
+          Ein Klon ist ein Lebewesen mit genau demselben Erbgut wie ein anderes Lebewesen. Klone gibt es auch in der
+          Natur, zum Beispiel bei manchen Pflanzen und bei eineiigen Zwillingen. Im Labor wurde 1996 das Schaf Dolly
+          geboren, das erste geklonte Säugetier.
+      - type: definition
+        term: Lötkolben
+        explanation: |
+          Ein Lötkolben ist ein Werkzeug, das Bauteile durch Löten verbindet. Er erhitzt Lot, zum Beispiel Lötzinn.
+          Das Lot schmilzt, verbindet die Teile und wird beim Abkühlen fest. So werden Teile fest und leitend
+          verbunden. Die Spitze wird sehr heiß.
+      - type: example
+        title: Raten mit Köpfchen
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Mit welchem Gerät misst man die Luftfeuchtigkeit?
+
+              1. Thermometer
+              2. Barometer
+              3. Hygrometer
+          - type: text
+            text: |
+              **So denkst du:** Auch wenn du dir nicht sicher bist, kannst du Antworten ausschließen.
+
+              - Ein Thermometer misst die Temperatur. Es scheidet aus.
+              - Ein Barometer misst den Luftdruck. Es scheidet auch aus.
+              - Übrig bleibt das Hygrometer.
+
+              **Antwort:** Hygrometer. Wer zwei falsche Antworten sicher kennt, findet die richtige.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: stoffe-magnet-falsch
+        text: Welche Aussage ist falsch?
+        options:
+          - text: Zwei Nordpole stoßen sich ab.
+            correct: false
+            info: Das stimmt. Gleiche Pole stoßen sich ab, verschiedene ziehen sich an.
+          - text: Ein Magnet zieht Aluminium genauso stark an wie Eisen.
+            correct: true
+            info: Das ist falsch. Eisen wird angezogen, Aluminium ist praktisch unmagnetisch.
+          - text: Jeder Magnet hat einen Nordpol und einen Südpol.
+            correct: false
+            info: Das stimmt. An den Polen ist die Kraft des Magneten am stärksten.
+        explanation: Eisen, Nickel und Kobalt sind magnetisch. Aluminium reagiert praktisch nicht auf einen Magneten.
+        hint: Überlege, welche Metalle ein Magnet anzieht.
+        links:
+          - { title: Magnet (Klexikon), url: "https://klexikon.zum.de/wiki/Magnet" }
+          - { title: Aluminium (Wikipedia), url: "https://de.wikipedia.org/wiki/Aluminium" }
+          - { title: Magnetfeld (Wikipedia), url: "https://de.wikipedia.org/wiki/Magnetfeld" }
+      - type: matching
+        id: stoffe-messgeraete
+        text: Ordne jedem Messgerät zu, was es misst.
+        pairs:
+          - { left: Barometer, right: Luftdruck }
+          - { left: Hygrometer, right: Luftfeuchtigkeit }
+          - { left: Thermometer, right: Temperatur }
+          - { left: Tachometer, right: Geschwindigkeit eines Fahrzeugs }
+          - { left: Waage, right: Gewicht }
+        distractors: [Lautstärke, Windrichtung]
+        explanation: Das Barometer misst den Luftdruck, das Hygrometer die Luftfeuchtigkeit und das Thermometer die Temperatur. Der Tachometer zeigt die Geschwindigkeit, die Waage das Gewicht.
+        links:
+          - { title: Barometer (Wikipedia), url: "https://de.wikipedia.org/wiki/Barometer" }
+          - { title: Hygrometer (Wikipedia), url: "https://de.wikipedia.org/wiki/Hygrometer" }
+          - { title: Thermometer (Wikipedia), url: "https://de.wikipedia.org/wiki/Thermometer" }
+          - { title: Tachometer (Wikipedia), url: "https://de.wikipedia.org/wiki/Tachometer" }
+          - { title: Waage (Wikipedia), url: "https://de.wikipedia.org/wiki/Waage" }
+      - type: single-choice
+        id: stoffe-kupfer
+        text: Warum werden Kupfer und Aluminium für Stromleitungen benutzt?
+        options:
+          - text: Sie werden von einem Magneten stark angezogen.
+            correct: false
+            info: Aluminium ist praktisch unmagnetisch, Kupfer im üblichen Sinn auch. Für Leitungen ist das nicht wichtig.
+          - text: Sie leiten den elektrischen Strom sehr gut.
+            correct: true
+            info: Kupfer und Aluminium gehören zu den besten Stromleitern.
+          - text: Sie speichern Strom wie ein Akku.
+            correct: false
+            info: Ein Draht leitet den Strom weiter. Energie speichert ein Akku.
+        explanation: Metalle leiten Strom gut. Kupfer und Aluminium sind dafür besonders geeignet.
+        links:
+          - { title: Kupfer (Wikipedia), url: "https://de.wikipedia.org/wiki/Kupfer" }
+          - { title: Aluminium (Wikipedia), url: "https://de.wikipedia.org/wiki/Aluminium" }
+      - type: number
+        id: stoffe-aluminium-recycling
+        text: "Für neues Aluminium aus Erz (Bauxit) braucht man viel Energie. Aluminium aus Schrott braucht nur einen kleinen Teil davon. Wie viel Prozent der Energie sind es ungefähr? Bis zu 2 Prozent daneben zählt noch als richtig."
+        answer: 5
+        tolerance: 2
+        unit: "%"
+        mistakes:
+          - answer: 50
+            message: "Etwa die Hälfte der Energie braucht Recyclingpapier. Bei Aluminium ist es deutlich weniger."
+          - answer: 95
+            message: "95 % ist ungefähr das, was man spart. Gefragt ist, wie viel Energie man noch braucht."
+        explanation: Aluminium aus Schrott braucht nur etwa 5 % der Energie, die für neues Aluminium aus Bauxit nötig ist. Recycling von Metall spart also sehr viel Energie.
+        links:
+          - { title: Recycling (Wikipedia), url: "https://de.wikipedia.org/wiki/Recycling" }
+          - { title: Aluminium (Wikipedia), url: "https://de.wikipedia.org/wiki/Aluminium" }
+      - type: true-false
+        id: stoffe-klon
+        text: Klone entstehen nur im Labor.
+        answer: false
+        explanation: Ein Klon hat dasselbe Erbgut wie ein anderes Lebewesen. Klone gibt es auch in der Natur, zum Beispiel bei manchen Pflanzen und bei eineiigen Zwillingen.
+        links:
+          - { title: Klonen (Wikipedia), url: "https://de.wikipedia.org/wiki/Klonen" }
+      - type: single-choice
+        id: stoffe-loetkolben
+        text: Wofür benutzt man einen Lötkolben?
+        options:
+          - text: Um die Temperatur der Luft zu messen.
+            correct: false
+            info: Dafür gibt es das Thermometer. Ein Lötkolben erhitzt Lot.
+          - text: Um Bauteile mit geschmolzenem Lot zu verbinden.
+            correct: true
+            info: Das Lot, zum Beispiel Lötzinn, schmilzt am heißen Lötkolben und verbindet die Teile beim Abkühlen.
+          - text: Um Strom in einem Akku zu speichern.
+            correct: false
+            info: Ein Akku speichert Energie. Ein Lötkolben dient zum Löten.
+        explanation: Ein Lötkolben ist ein Werkzeug zum Löten. Er verbindet Bauteile mit geschmolzenem Lot.
+        links:
+          - { title: Lötkolben (Wikipedia), url: "https://de.wikipedia.org/wiki/Lötkolben" }

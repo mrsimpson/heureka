@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Mensch und Tier
+summary: Wie Tiere und unser Körper funktionieren.
+pages: [tiere-und-ihre-jungen, koerper-und-blut, atmen-haut-sinne]

@@ -54,6 +54,12 @@
       "sourceType": "github",
       "skillPath": "skills/process/lernapps-practice-plan/SKILL.md",
       "computedHash": "eb8416edaffb154416f1d1ce71c8edcb44300ab555cf6782a968265f2bc0139d"
+    },
+    "lernapps-practice-submit": {
+      "source": "lernapps/practice",
+      "sourceType": "github",
+      "skillPath": "skills/process/lernapps-practice-submit/SKILL.md",
+      "computedHash": "8a4e34465de901b4f00db9cf63cb466cff345434bdc491b77f49c2b820b8504c"
     }
   }
 }

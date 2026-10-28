@@ -1,0 +1,219 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Tiere und ihre Jungen
+description: Jungtiernamen, Verwandlung bei Schmetterling und Frosch, Tiergruppen und Besonderheiten von Pinguin, Eisbär, Flamingo und Qualle.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Im Wettbewerb kommen oft Fragen zu Tieren vor. Du sollst zum Beispiel wissen, wie ein junges Tier heißt
+          oder wie sich eine Raupe verändert. Auch die Tiergruppen sind wichtig: Was legt Eier und was nicht?
+          Hier lernst du die wichtigsten Fakten. Du übst auch, bei „Welche Aussage ist falsch?“ klug zu prüfen.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: section
+        id: jungtiere
+        title: Jungtiere und ihre Eltern
+        blocks:
+          - type: text
+            text: |
+              Viele Jungtiere haben einen eigenen Namen. Auch Mutter und Vater haben oft eigene Namen. Das
+              ist gut zu merken, weil die Wettbewerbsfragen genau danach fragen.
+          - type: table
+            caption: Weibchen, Männchen und Jungtier bei bekannten Tieren
+            header: [Tier, Weibchen, Männchen, Jungtier]
+            rowHeaders: true
+            rows:
+              - [Pferd, Stute, Hengst, Fohlen]
+              - [Rind, Kuh, Bulle oder Stier, Kalb]
+              - [Schaf, Mutterschaf, Widder, Lamm]
+              - [Schwein, Sau, Eber, Ferkel]
+              - [Huhn, Henne, Hahn, Küken]
+              - [Reh, Ricke, Bock, Kitz]
+          - type: text
+            text: |
+              Junge Hunde, Wölfe und Füchse heißen **Welpen**. Ein junges Wildschwein heißt **Frischling**.
+              Ein Ei vom Haushuhn brütet normalerweise 21 Tage lang, bis das Küken schlüpft.
+      - type: section
+        id: verwandlung
+        title: Tiere, die sich verwandeln
+        blocks:
+          - type: definition
+            term: Metamorphose
+            explanation: Eine Metamorphose ist eine Verwandlung. Das Jungtier sieht ganz anders aus als das erwachsene Tier und verändert sich in Stufen.
+          - type: text
+            text: |
+              **Schmetterling:** Aus dem Ei schlüpft eine Raupe. Sie kann nicht fliegen, wächst und häutet sich
+              mehrfach. Dann wird sie zur Puppe. Aus der Puppe schlüpft der Falter, der fliegen kann.
+
+              **Frosch:** Das Weibchen legt die Eier meist im Wasser ab, den Laich. Daraus schlüpft eine Kaulquappe.
+              Sie atmet mit Kiemen. Zuerst wachsen die Hinterbeine, dann die Vorderbeine. Der Schwanz bildet sich
+              zurück, und die Kiemen werden durch eine Lunge ersetzt. Der erwachsene Frosch lebt an Land.
+      - type: section
+        id: tiergruppen
+        title: Tiergruppen im Vergleich
+        blocks:
+          - type: definition
+            term: gleichwarm
+            explanation: Gleichwarme Tiere (Warmblüter) erzeugen selbst Wärme und halten ihre Körpertemperatur fast immer gleich, egal wie warm es draußen ist.
+          - type: definition
+            term: wechselwarm
+            explanation: Wechselwarme Tiere (Kaltblüter) haben ungefähr die Temperatur ihrer Umgebung. Sie wärmen sich zum Beispiel in der Sonne auf.
+          - type: table
+            caption: Vier Tiergruppen und ihre Merkmale
+            header: [Gruppe, Körpertemperatur, Merkmale]
+            rowHeaders: true
+            rows:
+              - [
+                  Säugetiere,
+                  gleichwarm,
+                  "Weibchen säugen die Jungen mit Milch. Fast alle gebären lebende Junge. Die meisten haben Haare.",
+                ]
+              - [
+                  Vögel,
+                  gleichwarm,
+                  "Alle Vögel legen Eier. Der Körper ist mit Federn bedeckt. Nicht alle können fliegen.",
+                ]
+              - [
+                  Reptilien,
+                  wechselwarm,
+                  "Trockene Haut mit Hornschuppen. Die meisten legen Eier. Beispiele: Schildkröte, Echse, Schlange, Krokodil.",
+                ]
+              - [Fische, wechselwarm, "Sie leben im Wasser und atmen mit Kiemen."]
+          - type: note
+            title: Ausnahmen merken
+            blocks:
+              - type: text
+                text: |
+                  Das **Schnabeltier** ist ein Säugetier und legt trotzdem Eier. Die Jungen trinken nach dem
+                  Schlüpfen Milch. Delfine und Wale sind Säugetiere, keine Fische. Sie bringen ihre Jungen lebend
+                  zur Welt. Pinguine sind Vögel, aber sie können nicht fliegen.
+          - type: text
+            text: |
+              Die **Insekten** haben sechs Beine. Ihr Körper hat drei Teile: Kopf, Brust und Hinterleib. Alle
+              Beine sitzen an der Brust. Die Insekten sind die artenreichste Tiergruppe. Mehr als die Hälfte aller
+              beschriebenen Tierarten sind Insekten.
+      - type: section
+        id: besonderheiten
+        title: Besonderheiten
+        blocks:
+          - type: text
+            text: |
+              **Quallen** sind Nesseltiere. Ihr Körper besteht zu etwa 98 bis 99 Prozent aus Wasser. An den
+              Tentakeln sitzen Nesselzellen, mit denen sie Beute fangen und sich verteidigen.
+
+              **Pinguine** sind Vögel. Ihre Flügel sind zu steifen Flossen geworden, mit denen sie schwimmen.
+              Sie leben vor allem auf der Südhalbkugel. Der Kaiserpinguin legt nur ein Ei und brütet es auf
+              seinen Füßen aus.
+
+              **Eisbären** leben nur in der Arktis, rund um den Nordpol. Sie fressen vor allem Robben. Ihre Haut
+              ist schwarz. Die Haare sind hohl und durchsichtig, das Fell sieht nur weiß aus.
+
+              **Flamingos** werden rosa durch ihre Nahrung: Algen und kleine Krebse enthalten rote Farbstoffe.
+              Frisch geschlüpfte Küken sind grau. Meist legt ein Flamingo nur ein Ei.
+      - type: example
+        title: So gehst du bei „Welche Aussage ist falsch?“ vor
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage über Reptilien ist falsch?
+
+              - A: Reptilien sind wechselwarm.
+              - B: Die meisten Reptilien legen Eier.
+              - C: Reptilien säugen ihre Jungen mit Milch.
+          - type: text
+            text: |
+              **Lösung durch Denken:** Zwei Aussagen stimmen, eine ist falsch. Prüfe jede Aussage einzeln.
+              A stimmt: Reptilien wärmen sich in der Sonne auf, sie sind wechselwarm. B stimmt: Die meisten
+              Reptilien legen Eier. C passt zu Säugetieren, nicht zu Reptilien. C ist also falsch, und das
+              ist die gesuchte Antwort. Wichtig: Kreuze nicht die erste richtige Aussage an. Gesucht ist die
+              falsche.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: tiere-besonderheiten-falsch
+        text: Welche Aussage ist falsch?
+        options:
+          - text: Pinguine sind Vögel, aber sie können nicht fliegen.
+            correct: false
+            info: Das stimmt. Pinguine sind Vögel. Ihre Flügel sind zu Flossen für das Schwimmen geworden, deshalb können sie nicht fliegen.
+          - text: Eisbären leben in der Arktis und in der Antarktis.
+            correct: true
+            info: Das ist falsch. Eisbären kommen nur in der Arktis rund um den Nordpol vor. Am Südpol gibt es keine Eisbären.
+          - text: Quallen bestehen fast nur aus Wasser.
+            correct: false
+            info: Das stimmt. Eine Qualle besteht zu etwa 98 bis 99 Prozent aus Wasser.
+        explanation: Eisbären gibt es nur in der Arktis. Die anderen beiden Aussagen stimmen. Bei dieser Frage suchst du die Aussage, die nicht stimmt.
+        hint: Prüfe jede Aussage einzeln und frage dich, wo das Tier lebt.
+        links:
+          - { title: Eisbär (Wikipedia), url: "https://de.wikipedia.org/wiki/Eisbär" }
+          - { title: Pinguine (Wikipedia), url: "https://de.wikipedia.org/wiki/Pinguine" }
+          - { title: Quallen (Wikipedia), url: "https://de.wikipedia.org/wiki/Quallen" }
+      - type: matching
+        id: tiere-jungtiere-zuordnen
+        text: Ordne jedem Tier sein Jungtier zu.
+        pairs:
+          - { left: Pferd, right: Fohlen }
+          - { left: Rind, right: Kalb }
+          - { left: Schwein, right: Ferkel }
+          - { left: Reh, right: Kitz }
+        distractors: [Küken, Lamm]
+        explanation: Das Pferd hat ein Fohlen, das Rind ein Kalb, das Schwein ein Ferkel und das Reh ein Kitz. Küken gehört zum Huhn und Lamm zum Schaf.
+        links:
+          - { title: Junges (Wiktionary), url: "https://de.wiktionary.org/wiki/Junges" }
+          - { title: Hauspferd (Wikipedia), url: "https://de.wikipedia.org/wiki/Hauspferd" }
+          - { title: Hausschwein (Wikipedia), url: "https://de.wikipedia.org/wiki/Hausschwein" }
+      - type: ordering
+        id: tiere-schmetterling-stufen
+        text: Bringe die Stufen im Leben eines Schmetterlings in die richtige Reihenfolge, die erste Stufe zuerst.
+        items: [Ei, Raupe, Puppe, Falter]
+        explanation: Aus dem Ei schlüpft die Raupe. Sie wächst, häutet sich und wird zur Puppe. Aus der Puppe schlüpft der Falter, der fliegen kann.
+        links:
+          - { title: Schmetterlinge (Wikipedia), url: "https://de.wikipedia.org/wiki/Schmetterlinge" }
+          - { title: Metamorphose (Wikipedia), url: "https://de.wikipedia.org/wiki/Metamorphose_(Zoologie)" }
+      - type: single-choice
+        id: tiere-eierlegendes-saeugetier
+        text: Welches dieser Tiere ist ein Säugetier und legt trotzdem Eier?
+        options:
+          - text: Schnabeltier
+            correct: true
+            info: Das Schnabeltier gehört zu den eierlegenden Säugetieren. Das Weibchen legt meist drei weiche Eier und säugt die Jungen später mit Milch.
+            link: { title: Schnabeltier (Wikipedia), url: "https://de.wikipedia.org/wiki/Schnabeltier" }
+          - text: Delfin
+            correct: false
+            info: Der Delfin ist ein Säugetier, aber er legt keine Eier. Wie alle Wale bringt er ein einziges Junges lebend zur Welt.
+          - text: Pinguin
+            correct: false
+            info: Der Pinguin legt zwar Eier, aber er ist ein Vogel und kein Säugetier.
+        explanation: Fast alle Säugetiere gebären lebende Junge. Das Schnabeltier gehört zu den wenigen Ausnahmen. Es legt Eier und säugt seine Jungen.
+        hint: Zwei Tiere legen Eier oder gebären lebend. Nur bei einem passt beides zur Gruppe der Säugetiere.
+        links:
+          - { title: Säugetiere (Wikipedia), url: "https://de.wikipedia.org/wiki/Säugetiere" }
+          - { title: Delfine (Wikipedia), url: "https://de.wikipedia.org/wiki/Delfine" }
+      - type: true-false
+        id: tiere-flamingo-kueken
+        text: Frisch geschlüpfte Flamingo-Küken sind schon rosa.
+        answer: false
+        explanation: Frisch geschlüpfte Flamingos haben ein graues Daunenkleid. Rosa werden sie erst durch ihre Nahrung, denn Algen und kleine Krebse enthalten rote Farbstoffe.
+        links:
+          - { title: Flamingos (Wikipedia), url: "https://de.wikipedia.org/wiki/Flamingos" }
+      - type: number
+        id: tiere-insekt-beine
+        text: Wie viele Beine hat eine Biene? Eine Biene ist ein Insekt.
+        answer: 6
+        tolerance: 0
+        mistakes:
+          - {
+              answer: 3,
+              message: "Drei ist die Zahl der Beinpaare und der Körperabschnitte. Gefragt ist nach der Zahl der Beine.",
+            }
+        hint: Insekten haben drei Beinpaare.
+        explanation: "Alle Insekten haben sechs Beine, also drei Beinpaare. Sie sitzen alle an der Brust. Der Körper hat drei Teile: Kopf, Brust und Hinterleib."
+        links:
+          - { title: Insekten (Wikipedia), url: "https://de.wikipedia.org/wiki/Insekten" }

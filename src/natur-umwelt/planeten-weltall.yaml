@@ -1,0 +1,197 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Planeten und Weltall
+description: Die Planeten des Sonnensystems, kleine Himmelskörper, Sterne, Galaxien und die Größenordnungen im Weltall.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Im Weltall gibt es sehr viele Dinge: Sterne, Planeten, Monde, Kometen und mehr. In Wettbewerbsaufgaben musst
+          du sie auseinanderhalten. Du lernst hier die Planeten in ihrer Reihenfolge, die wichtigsten Himmelskörper und
+          ein Gefühl für die riesigen Entfernungen.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Planet
+        explanation: Ein Planet umkreist die Sonne, ist durch seine eigene Schwerkraft fast kugelrund und hat auf seiner Bahn andere größere Brocken aus dem Weg geräumt. Pluto erfüllt die dritte Bedingung nicht und heißt deshalb Zwergplanet.
+      - type: text
+        text: |
+          Das Sonnensystem hat acht Planeten. Die Sonne macht fast die gesamte Masse des Sonnensystems aus (rund
+          99,86 Prozent). Alle Planeten laufen in derselben Richtung um die Sonne.
+      - type: table
+        caption: Die acht Planeten, von der Sonne aus nach außen gezählt
+        header: [Platz, Planet, Art]
+        rows:
+          - ["1", Merkur, Gesteinsplanet]
+          - ["2", Venus, Gesteinsplanet]
+          - ["3", Erde, Gesteinsplanet]
+          - ["4", Mars, Gesteinsplanet]
+          - ["5", Jupiter, Gasplanet (Gasriese)]
+          - ["6", Saturn, Gasplanet (Gasriese)]
+          - ["7", Uranus, Eisriese]
+          - ["8", Neptun, Eisriese]
+      - type: text
+        text: |
+          Merkur, Venus, Erde und Mars bestehen aus Gestein mit einem Kern aus Metall. Jupiter und Saturn sind
+          Gasriesen. Uranus und Neptun zählt man heute als eigene Gruppe, die Eisriesen. Früher rechnete man sie zu den
+          Gasplaneten. Jupiter ist der größte Planet: Sein Durchmesser ist etwa 11-mal so groß wie der der Erde. Merkur
+          ist der kleinste Planet und der Sonne am nächsten. Er hat keinen Mond, Venus auch nicht.
+      - type: text
+        text: |
+          **Kleine Körper im Sonnensystem.** Zwischen den Bahnen von Mars und Jupiter liegt der Asteroidengürtel. Dort
+          fliegen die meisten Asteroiden. Der größte Körper dort ist Ceres, die als Zwergplanet gilt.
+      - type: table
+        caption: Komet, Asteroid und Meteoroid im Vergleich
+        header: [Name, Was ist das?, Woran erkennst du es?]
+        rowHeaders: true
+        rows:
+          - [
+              Komet,
+              "Ein kleiner Körper aus Eis, Staub und lockerem Gestein.",
+              Nahe der Sonne verdampft das Eis und es bildet sich ein Schweif. Der Schweif zeigt von der Sonne weg.,
+            ]
+          - [
+              Asteroid,
+              Ein kleiner Brocken aus Gestein oder Metall.,
+              Er sieht von der Erde aus wie ein Lichtpunkt. Meist liegt er im Asteroidengürtel.,
+            ]
+          - [
+              Meteoroid,
+              "Ein Brocken, der kleiner als ein Asteroid ist.",
+              Er ist von Bruchteilen eines Millimeters bis zu einigen Metern groß.,
+            ]
+      - type: text
+        text: |
+          Dringt ein Meteoroid in die Lufthülle der Erde ein, entsteht eine Leuchterscheinung: der **Meteor**. Kleine
+          nennt man **Sternschnuppen**. Das Leuchten kommt vor allem von der Luft, die der schnelle Brocken stark
+          erhitzt. Erreicht ein Rest den Boden, heißt er **Meteorit**. Der Halleysche Komet kehrt etwa alle 76 Jahre
+          zurück.
+      - type: definition
+        term: Stern, Planet und Mond
+        explanation: Ein Stern ist ein Ball aus sehr heißem Gas, der selbst leuchtet, wie die Sonne. Ein Planet ist kein Stern und umkreist einen Stern. Ein Mond ist ein natürlicher Himmelskörper, der einen größeren Körper umkreist, meist einen Planeten.
+      - type: definition
+        term: Galaxie
+        explanation: Eine Galaxie ist eine riesige Ansammlung von Sternen, die durch ihre Schwerkraft zusammenhalten. Unsere Galaxie heißt Milchstraße. Die Sonne liegt auf einem ihrer Spiralarme.
+      - type: text
+        text: |
+          **Das Weltall ist fast leer.** Dort herrscht ein Hochvakuum: Es gibt nur sehr wenige Teilchen, an manchen
+          Stellen nur einzelne Atome. Es gibt dort keine Luft zum Atmen. Auch Feuer braucht Sauerstoff, den es im
+          Weltraum nicht gibt. Eine Kerze würde im offenen Weltraum nicht brennen. Hörbarer Schall breitet sich dort
+          auch nicht aus, denn er braucht einen Stoff, durch den er läuft.
+      - type: table
+        caption: Größenordnungen, die du kennen solltest
+        header: [Strecke oder Anzahl, Wert]
+        rowHeaders: true
+        rows:
+          - [Sonne bis Erde, rund 150 Millionen Kilometer (Licht braucht gut 8 Minuten)]
+          - [Erde bis Mond, rund 384 400 Kilometer]
+          - [Ein Lichtjahr, "etwa 9,46 Billionen Kilometer: so weit fliegt Licht in einem Jahr"]
+          - ["Nächster Stern nach der Sonne (Proxima Centauri)", "etwa 4,2 Lichtjahre"]
+          - [Durchmesser der Milchstraße, "rund 90 000 Lichtjahre (die Scheibe)"]
+          - [Sterne in der Milchstraße, "grob geschätzt 100 bis 400 Milliarden"]
+      - type: note
+        title: Vorsicht, Falle
+        blocks:
+          - type: text
+            text: Ein **Lichtjahr** ist keine Zeit, sondern eine Strecke. Das Wort „Jahr“ steckt nur drin, weil man die Strecke über die Reisezeit des Lichts festgelegt hat.
+      - type: example
+        title: So gehst du bei einer Frage vor
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage über Himmelskörper ist falsch?
+              A: Ein Komet bekommt nahe der Sonne einen Schweif. B: Ein Asteroid besteht meist aus Gestein oder Metall. C: Eine Sternschnuppe ist ein Stern, der abstürzt.
+          - type: text
+            text: |
+              **Schritt 1:** Gesucht ist die falsche Aussage.
+              **Schritt 2:** A prüfen. Nahe der Sonne verdampft das Eis des Kometen, daraus entsteht der Schweif. A stimmt.
+              **Schritt 3:** B prüfen. Asteroiden sind Brocken aus Gestein oder Metall. B stimmt.
+              **Schritt 4:** C prüfen. Eine Sternschnuppe ist ein kleiner Brocken, der in der Lufthülle der Erde glüht, kein Stern. C ist falsch und damit die Antwort.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: planeten-weltall-planet-falsch
+        text: Welche Aussage über die Planeten ist falsch?
+        options:
+          - text: Merkur ist der Planet, der der Sonne am nächsten ist.
+            correct: false
+            info: Das stimmt. Merkur ist im Mittel etwa 58 Millionen Kilometer von der Sonne entfernt.
+          - text: Jupiter ist ein Gasplanet.
+            correct: false
+            info: Das stimmt. Jupiter und Saturn sind die beiden Gasriesen, Jupiter ist der größte Planet.
+          - text: Mars ist ein Gasplanet.
+            correct: true
+            info: Das ist falsch. Mars besteht aus Gestein mit einem Metallkern, wie Merkur, Venus und Erde.
+        explanation: Mars gehört zu den vier Gesteinsplaneten. Gasplaneten sind Jupiter und Saturn.
+        hint: Die vier Planeten, die der Sonne am nächsten sind, haben eine feste Oberfläche.
+        links:
+          - { title: Planet (Wikipedia), url: "https://de.wikipedia.org/wiki/Planet" }
+          - { title: Sonnensystem (Wikipedia), url: "https://de.wikipedia.org/wiki/Sonnensystem" }
+      - type: ordering
+        id: planeten-weltall-reihenfolge
+        text: Bringe diese Planeten in die Reihenfolge, wie sie von der Sonne aus nach außen folgen. Der der Sonne nächste Planet steht zuerst.
+        items: [Merkur, Erde, Mars, Jupiter, Neptun]
+        explanation: Die Reihenfolge ab der Sonne ist Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun. Hier fehlen einige Planeten, aber die Reihenfolge bleibt gleich.
+        links:
+          - { title: Planet (Wikipedia), url: "https://de.wikipedia.org/wiki/Planet" }
+      - type: matching
+        id: planeten-weltall-koerper
+        text: Ordne jedem Namen die passende Beschreibung zu. Eine Beschreibung passt zu keinem Namen.
+        pairs:
+          - { left: Komet, right: "Eis- und Staubkörper, der nahe der Sonne einen Schweif bekommt" }
+          - { left: Asteroid, right: "Gesteinsbrocken, der meist zwischen Mars und Jupiter kreist" }
+          - { left: Sternschnuppe, right: Leuchtspur eines kleinen Brockens in der Lufthülle der Erde }
+        distractors: ["Ball aus heißem Gas, der selbst leuchtet"]
+        explanation: Ein Komet besteht aus Eis und Staub und bildet nahe der Sonne einen Schweif. Ein Asteroid ist ein Brocken aus Gestein oder Metall. Eine Sternschnuppe ist ein kleiner Meteoroid, der in der Luft der Erde glüht. Ein Ball aus heißem Gas, der selbst leuchtet, ist ein Stern.
+        links:
+          - { title: Komet (Wikipedia), url: "https://de.wikipedia.org/wiki/Komet" }
+          - { title: Asteroid (Wikipedia), url: "https://de.wikipedia.org/wiki/Asteroid" }
+          - { title: Meteoroid (Wikipedia), url: "https://de.wikipedia.org/wiki/Meteoroid" }
+      - type: single-choice
+        id: planeten-weltall-stern-planet-mond
+        text: Welche Aussage ist richtig?
+        options:
+          - text: Ein Mond umkreist einen Planeten.
+            correct: true
+            info: Das stimmt. Die Erde hat einen Mond, Merkur und Venus haben keinen.
+          - text: Die Erde ist ein Stern.
+            correct: false
+            info: Die Erde ist ein Planet. Sterne wie die Sonne sind Bälle aus heißem Gas, die selbst leuchten.
+          - text: Ein Stern umkreist seine Planeten.
+            correct: false
+            info: Es ist andersherum. Die Planeten umkreisen die Sonne, den Stern.
+        explanation: Monde umkreisen Planeten, Planeten umkreisen einen Stern. Ein Stern ist ein selbstleuchtender Ball aus heißem Gas.
+        links:
+          - { title: Planetenmond (Wikipedia), url: "https://de.wikipedia.org/wiki/Planetenmond" }
+          - { title: Stern (Wikipedia), url: "https://de.wikipedia.org/wiki/Stern" }
+      - type: single-choice
+        id: planeten-weltall-kerze
+        text: Warum würde eine Kerze im offenen Weltraum nicht brennen?
+        options:
+          - text: Dort ist es fast leer und es gibt keinen Sauerstoff für die Flamme.
+            correct: true
+            info: Feuer braucht Sauerstoff. Im Weltraum gibt es fast keine Teilchen, also auch keine Luft.
+          - text: Dort ist es immer zu kalt.
+            correct: false
+            info: Dem leeren Raum selbst lässt sich keine Temperatur zuordnen. Die Kälte ist nicht der Grund, sondern der fehlende Sauerstoff.
+          - text: Dort ist es immer zu heiß.
+            correct: false
+            info: Auch das ist es nicht. Weil so wenige Teilchen da sind, geben sie kaum Wärme ab. Entscheidend ist der fehlende Sauerstoff.
+        explanation: Eine Flamme verbrennt den Brennstoff mit Sauerstoff. Im Weltraum fehlt er, weil dort ein Hochvakuum herrscht.
+        links:
+          - { title: Weltraum (Wikipedia), url: "https://de.wikipedia.org/wiki/Weltraum" }
+          - { title: Verbrennung (Chemie) (Wikipedia), url: "https://de.wikipedia.org/wiki/Verbrennung_(Chemie)" }
+          - { title: Weltall (Klexikon), url: "https://klexikon.zum.de/wiki/Weltall" }
+      - type: true-false
+        id: planeten-weltall-lichtjahr
+        text: Ein Lichtjahr ist eine Zeitspanne von einem Jahr.
+        answer: false
+        explanation: Ein Lichtjahr ist eine Länge. Es ist die Strecke, die Licht in einem Jahr zurücklegt, etwa 9,46 Billionen Kilometer.
+        links:
+          - { title: Lichtjahr (Wikipedia), url: "https://de.wikipedia.org/wiki/Lichtjahr" }

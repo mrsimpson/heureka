@@ -1,0 +1,191 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Energie und Strom
+description: "Windrad, Generator, Solarzelle, Elektroauto, fossile und erneuerbare Energien und Strom sparen."
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Woher kommt der Strom aus der Steckdose? Hier lernst du, wie ein Windrad Strom erzeugt und was ein
+          Generator macht. Du erfährst, wie ein Elektroauto fährt und was fossile von erneuerbaren Energien
+          unterscheidet. Am Ende geht es darum, wie du Strom sparst.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Generator
+        explanation: |
+          Ein Generator wandelt Bewegungsenergie in elektrische Energie um. Er nutzt einen Magneten und Spulen aus
+          Draht. Bewegt sich ein Draht durch ein Magnetfeld, entsteht eine elektrische Spannung. Der Elektromotor
+          macht es umgekehrt: Er wandelt elektrische Energie in Bewegung um.
+      - type: text
+        text: |
+          **Das Windrad:** Der Wind drückt auf die Rotorblätter und dreht den Rotor. Der Rotor treibt den Generator
+          an. Der Generator erzeugt Strom, und der Strom fließt ins Stromnetz. Der Generator steckt in der Gondel
+          ganz oben auf dem Turm.
+      - type: figure
+        image: images/te-windrad.svg
+        alt: "Schema eines Windrads von der Seite. Drei weiße Rotorblätter sitzen an einer blauen Nabe. Dahinter liegt die Gondel, ein heller Kasten. In der Gondel sitzt ein gelber Kasten, der Generator. Die Gondel steht auf einem hohen Turm. Der Turm steht auf einem grauen Fundament im Boden."
+        caption: "Teile eines Windrads: Rotorblätter und Nabe (zusammen der Rotor), Gondel mit Generator, Turm und Fundament."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Warum sind die Türme so hoch?
+        blocks:
+          - type: text
+            text: |
+              Mit der Höhe wird der Wind schneller. Ein hoher Turm bringt den Rotor also in stärkeren Wind. Auch
+              größere Rotoren bringen mehr Strom. Die meisten modernen Windräder haben drei Rotorblätter.
+      - type: definition
+        term: Solarzelle
+        explanation: |
+          Eine Solarzelle wandelt Licht direkt in elektrische Energie um. Meistens besteht sie aus Silicium. Viele
+          Zellen zusammen bilden ein Solarmodul.
+      - type: text
+        text: |
+          **Das Elektroauto** hat einen Elektromotor statt eines Verbrennungsmotors. Der Strom dafür kommt aus einem
+          großen Akku. Beim Bremsen kann der Motor einen Teil der Bremsenergie in den Akku zurückgeben. Die
+          Reichweite hängt auch von der Außentemperatur ab. Bei Kälte laufen Heizung und Klimaanlage und nehmen
+          Energie aus dem Akku. Dann kommt das Auto nicht so weit.
+      - type: definition
+        term: Fossile Brennstoffe
+        explanation: |
+          Kohle, Erdöl und Erdgas heißen fossile Brennstoffe. Sie sind vor Millionen Jahren aus den Resten von Pflanzen
+          und Tieren entstanden. Die Vorräte sind begrenzt. Beim Verbrennen entsteht Kohlenstoffdioxid, ein
+          Treibhausgas.
+      - type: definition
+        term: Erneuerbare Energien
+        explanation: |
+          Erneuerbare Energien kommen aus Quellen, die nicht verbraucht werden oder sich schnell erneuern. Dazu gehören
+          Sonne, Wind, Wasser, Biomasse (zum Beispiel Holz) und die Wärme aus der Erde.
+      - type: note
+        title: So sparst du Strom
+        blocks:
+          - type: text
+            text: |
+              - Schalte das Licht aus, wenn du den Raum verlässt.
+              - LED-Lampen sind typisch etwa viermal so sparsam wie Glühlampen.
+              - Schalte Geräte ganz aus. Im Standby verbrauchen vor allem ältere Geräte weiter Strom.
+              - Ein Ladegerät in der Steckdose verbraucht auch ohne Handy Strom.
+              - Eine Waschmaschine füllst du am besten ganz voll.
+      - type: example
+        title: So gehst du bei „Welche Aussage ist falsch?“ vor
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage über Kohle, Erdöl und Erdgas ist falsch?
+
+              1. Sie sind aus Resten von Pflanzen und Tieren entstanden.
+              2. Sie wachsen in wenigen Jahren wieder nach.
+              3. Beim Verbrennen entsteht Kohlenstoffdioxid.
+          - type: text
+            text: |
+              **So denkst du:** Zwei Aussagen stimmen, eine nicht. Gehe jede einzeln durch.
+
+              - Aussage 1: Das gehört zur Entstehung der fossilen Brennstoffe. Sie stimmt.
+              - Aussage 2: Die Brennstoffe sind vor Millionen Jahren entstanden. In wenigen Jahren wachsen sie nicht nach, die Vorräte sind begrenzt. Sie ist falsch.
+              - Aussage 3: Beim Verbrennen entsteht Kohlenstoffdioxid. Sie stimmt.
+
+              **Antwort:** Aussage 2. Achte auf Wörter wie „immer“, „nur“ und „in wenigen Jahren“. Sie machen eine Aussage oft falsch.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: energie-windrad-teile
+        text: Beschrifte das Windrad. Ordne jedem Buchstaben das richtige Teil zu.
+        material:
+          - type: labelled-figure
+            image: images/te-windrad.svg
+            alt: "Schema eines Windrads von der Seite mit sechs Markierungen. A steht auf einem der drei Rotorblätter. B steht auf der Nabe in der Mitte der Rotorblätter. C steht auf der Gondel hinter der Nabe. D steht auf dem gelben Kasten in der Gondel, dem Generator. E steht auf dem Turm. F steht auf dem Fundament im Boden."
+            caption: Jeder Buchstabe zeigt auf ein Teil des Windrads.
+            legend: false
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            labels:
+              - { marker: A, x: 35, y: 17, text: Rotorblatt }
+              - { marker: B, x: 35, y: 31.5, text: Nabe }
+              - { marker: C, x: 46, y: 29.5, text: Gondel }
+              - { marker: D, x: 61.5, y: 31.5, text: Generator }
+              - { marker: E, x: 63.75, y: 62.5, text: Turm }
+              - { marker: F, x: 63.75, y: 91.5, text: Fundament }
+        pairsFrom: material
+        distractors: [Kühlturm, Schornstein]
+        explanation: Die Rotorblätter sitzen an der Nabe. Dahinter liegt die Gondel mit dem Generator. Der Turm trägt die Gondel und steht auf einem Fundament.
+        links:
+          - { title: Windenergieanlage (Wikipedia), url: "https://de.wikipedia.org/wiki/Windenergieanlage" }
+      - type: ordering
+        id: energie-windrad-ablauf
+        text: Bringe die Schritte in die richtige Reihenfolge, vom Wind bis zum Stromnetz.
+        items:
+          - Der Wind drückt auf die Rotorblätter.
+          - Der Rotor dreht sich.
+          - Der Rotor treibt den Generator an.
+          - Der Generator erzeugt Strom.
+          - Der Strom fließt ins Stromnetz.
+        explanation: Der Wind setzt den Rotor in Bewegung. Der Generator wandelt diese Bewegung in elektrische Energie um, und der Strom geht ins Netz.
+        links:
+          - { title: Windenergieanlage (Wikipedia), url: "https://de.wikipedia.org/wiki/Windenergieanlage" }
+          - { title: Elektrischer Generator (Wikipedia), url: "https://de.wikipedia.org/wiki/Elektrogenerator" }
+      - type: single-choice
+        id: energie-falsche-aussage
+        text: Welche Aussage ist falsch?
+        options:
+          - text: Ein Generator wandelt Bewegungsenergie in elektrische Energie um.
+            correct: false
+            info: Das stimmt. Im Windrad treibt der Rotor den Generator an.
+          - text: Der Turm eines Windrads ist hoch, weil der Wind dort oben schwächer weht.
+            correct: true
+            info: Das ist falsch. Mit der Höhe wird der Wind schneller, darum steht der Rotor weit oben.
+          - text: Eine Solarzelle wandelt Licht direkt in elektrische Energie um.
+            correct: false
+            info: Das stimmt. Viele Solarzellen bilden zusammen ein Solarmodul.
+        explanation: Ein hoher Turm bringt den Rotor in stärkeren Wind. Darum ist die Aussage über den schwächeren Wind falsch.
+        hint: Denke daran, wo der Wind besser weht, am Boden oder hoch oben.
+        links:
+          - { title: Windenergieanlage (Wikipedia), url: "https://de.wikipedia.org/wiki/Windenergieanlage" }
+          - { title: Solarzelle (Wikipedia), url: "https://de.wikipedia.org/wiki/Solarzelle" }
+          - { title: Elektrischer Generator (Wikipedia), url: "https://de.wikipedia.org/wiki/Elektrogenerator" }
+      - type: single-choice
+        id: energie-elektroauto
+        text: Welche Aussage über das Elektroauto stimmt?
+        options:
+          - text: Seine Reichweite ist im Sommer und im Winter immer genau gleich.
+            correct: false
+            info: Im Winter laufen Heizung und Klimaanlage und nehmen Energie aus dem Akku. Die Reichweite wird dann kleiner.
+          - text: Beim Bremsen geht alle Bewegungsenergie verloren.
+            correct: false
+            info: Der Elektromotor kann beim Bremsen einen Teil der Energie in den Akku zurückgeben.
+          - text: Ein Elektromotor treibt es an, und der Strom kommt aus einem Akku.
+            correct: true
+            info: Das stimmt. Der Akku wird an einer Ladestation oder Steckdose geladen.
+        explanation: Ein Elektroauto fährt mit einem Elektromotor und einem Akku. Die Reichweite hängt unter anderem davon ab, wie viel Energie die Heizung braucht.
+        links:
+          - { title: Elektroauto (Wikipedia), url: "https://de.wikipedia.org/wiki/Elektroauto" }
+      - type: true-false
+        id: energie-fossil
+        text: Kohle, Erdöl und Erdgas wachsen innerhalb weniger Jahre nach. Darum gehen sie nie aus.
+        answer: false
+        explanation: Fossile Brennstoffe sind vor Millionen Jahren aus Resten von Pflanzen und Tieren entstanden. Ihre Vorräte sind begrenzt. Sonne, Wind und Wasser dagegen gehören zu den erneuerbaren Energien.
+        links:
+          - { title: Fossile Energie (Wikipedia), url: "https://de.wikipedia.org/wiki/Fossile_Energie" }
+          - { title: Erneuerbare Energien (Wikipedia), url: "https://de.wikipedia.org/wiki/Erneuerbare_Energien" }
+      - type: single-choice
+        id: energie-sparen
+        text: Welche Maßnahme spart Strom?
+        options:
+          - text: Das Ladegerät dauerhaft in der Steckdose lassen.
+            correct: false
+            info: Ein Ladegerät in der Steckdose verbraucht auch dann Strom, wenn kein Handy angeschlossen ist.
+          - text: Eine LED-Lampe statt einer Glühlampe einsetzen.
+            correct: true
+            info: LED-Lampen sind typisch etwa viermal so sparsam wie Glühlampen.
+          - text: Das Licht in einem leeren Zimmer anlassen.
+            correct: false
+            info: Eine brennende Lampe verbraucht Strom, auch wenn niemand im Raum ist. Schalte sie schon für wenige Minuten aus.
+        explanation: Sparsame Lampen, abgeschaltete Geräte und ausgesteckte Ladegeräte senken den Stromverbrauch.
+        links:
+          - { title: Energieeinsparung (Wikipedia), url: "https://de.wikipedia.org/wiki/Energieeinsparung" }

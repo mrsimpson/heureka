@@ -1,0 +1,187 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Sonne, Erde und Mond
+description: Die Sonne als Stern, Tag und Jahr, die Mondphasen und der Unterschied zwischen Sonnen- und Mondfinsternis.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Sonne, Erde und Mond bewegen sich ständig umeinander. Daraus entstehen Tag und Nacht, das Jahr, die
+          Mondphasen und die Finsternisse. Auf dieser Seite lernst du, wie diese Dinge zusammenhängen. So erkennst du
+          in einer Aufgabe schnell, welche Aussage nicht stimmen kann.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Stern
+        explanation: Ein Stern ist ein riesiger Ball aus heißem Gas, der selbst leuchtet. Die Sonne ist ein Stern, und zwar der, der der Erde am nächsten ist.
+      - type: text
+        text: |
+          Die Sonne ist viel größer als die Erde: Der Durchmesser der Erde passt etwa 109-mal in den der Sonne. Sie ist
+          im Mittel rund 150 Millionen Kilometer von uns entfernt. Ihr Licht braucht für diesen weiten Weg ungefähr
+          8 Minuten und 19 Sekunden. Wenn du heute die Sonne siehst, ist ihr Licht also gut 8 Minuten alt.
+      - type: definition
+        term: Mond
+        explanation: Der Mond ist der natürliche Begleiter der Erde und umkreist sie. Er leuchtet nicht selbst, sondern wird von der Sonne angestrahlt.
+      - type: text
+        text: |
+          **Tag und Jahr.** Die Erde dreht sich einmal am Tag um ihre eigene Achse. Dabei zeigt immer ein anderer Teil
+          zur Sonne: So entstehen Tag und Nacht. Ein ganzes Jahr braucht die Erde, um einmal um die Sonne zu kreisen
+          (gut 365 Tage).
+      - type: table
+        caption: Drehung und Umlauf im Überblick
+        header: [Was passiert?, Wie lange?, Was entsteht daraus?]
+        rows:
+          - [Die Erde dreht sich um ihre Achse, 1 Tag, Tag und Nacht]
+          - [Die Erde umkreist die Sonne, 1 Jahr, ein Jahr]
+          - [Der Mond durchläuft alle Phasen, "etwa 29,5 Tage", ein Zyklus von Neumond zu Neumond]
+      - type: text
+        text: |
+          **Mondphasen.** Die Sonne beleuchtet immer genau die Hälfte des Mondes. Wie viel von dieser hellen Seite wir
+          sehen, hängt davon ab, wo der Mond auf seiner Bahn um die Erde gerade steht. Der Mond selbst verändert sich
+          dabei nicht.
+      - type: text
+        text: |
+          - **Neumond:** Der Mond steht zwischen Erde und Sonne. Uns zeigt sich seine dunkle Seite.
+          - **Zunehmender Mond:** Die helle Fläche wird größer. Beim ersten Viertel ist die Hälfte hell.
+          - **Vollmond:** Der Mond steht auf der anderen Seite der Erde. Wir sehen die ganze helle Seite.
+          - **Abnehmender Mond:** Die helle Fläche wird kleiner. Beim letzten Viertel ist wieder die Hälfte hell.
+      - type: note
+        title: Eselsbrücke für die Nordhalbkugel
+        blocks:
+          - type: text
+            text: Das Zeichen ) steht für den zunehmenden Mond, das Zeichen ( für den abnehmenden. Das gilt bei uns im Norden. Auf der Südhalbkugel ist es umgekehrt.
+      - type: figure
+        image: images/nu-sonne-mond-erde.svg
+        alt: Schematische Zeichnung auf dunkelblauem Grund, von links nach rechts. Ganz links ein großer gelber Ball, in der Mitte ein kleiner grauer Ball, rechts ein blauer Ball mit grünen Flecken. Vom grauen Ball läuft ein dunkler, spitz zulaufender Schatten zum blauen Ball.
+        caption: Die Zeichnung ist nicht maßstabsgetreu. Sieh dir an, in welcher Reihenfolge die drei Körper stehen und wohin der Schatten fällt.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          **Finsternisse.** Bei einer **Sonnenfinsternis** steht der Mond zwischen Sonne und Erde. Das geht nur bei
+          Neumond. Sein Schatten fällt dann auf die Erde. Bei einer **Mondfinsternis** liegt die Erde zwischen Sonne und
+          Mond, und der Mond wandert durch den Schatten der Erde. Das geht nur bei Vollmond. Nicht bei jedem Neumond und
+          jedem Vollmond gibt es eine Finsternis, denn die Bahn des Mondes ist ein wenig gegen die Bahn der Erde geneigt.
+      - type: table
+        caption: Sonnenfinsternis und Mondfinsternis im Vergleich
+        header: [Frage, Sonnenfinsternis, Mondfinsternis]
+        rowHeaders: true
+        rows:
+          - [Mondphase, Neumond, Vollmond]
+          - [Wer steht in der Mitte?, der Mond, die Erde]
+          - [
+              Wessen Schatten fällt wohin?,
+              Der Schatten des Mondes fällt auf die Erde.,
+              Der Schatten der Erde fällt auf den Mond.,
+            ]
+          - [Wo sieht man sie?, "Total nur in einem schmalen Streifen der Erde.", von der ganzen Nachtseite der Erde]
+      - type: note
+        title: Vorsicht beim Hinsehen
+        blocks:
+          - type: text
+            text: Schau bei einer Sonnenfinsternis nie ohne Schutz in die Sonne. Das kann die Augen dauerhaft schädigen. Normale Sonnenbrillen reichen nicht, nötig ist eine Finsternisbrille.
+      - type: example
+        title: So gehst du bei einer Frage vor
+        blocks:
+          - type: text
+            text: |
+              **Frage:** Welche Aussage ist falsch?
+              A: Der Mond leuchtet nicht selbst. B: Bei Vollmond sehen wir die ganze helle Seite des Mondes. C: Bei Neumond steht die Erde zwischen Sonne und Mond.
+          - type: text
+            text: |
+              **Schritt 1:** Gesucht ist die falsche Aussage. Die anderen beiden stimmen.
+              **Schritt 2:** A prüfen. Der Mond wird von der Sonne angestrahlt. A stimmt.
+              **Schritt 3:** B prüfen. Bei Vollmond steht die Erde zwischen Sonne und Mond, und wir sehen die ganze helle Seite. B stimmt.
+              **Schritt 4:** C prüfen. Bei Neumond steht der Mond zwischen Erde und Sonne, nicht die Erde. C ist falsch und damit die Antwort.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: sonne-erde-mond-sonne-falsch
+        text: Welche Aussage über die Sonne ist falsch?
+        options:
+          - text: Die Sonne ist ein Stern.
+            correct: false
+            info: Das stimmt. Die Sonne ist der Stern, der der Erde am nächsten ist.
+          - text: Das Licht der Sonne braucht gut 8 Minuten bis zur Erde.
+            correct: false
+            info: Das stimmt. Die Sonne ist rund 150 Millionen Kilometer entfernt, und das Licht braucht dafür 8 Minuten und 19 Sekunden.
+          - text: Die Sonne ist ein Planet, der die Erde umkreist.
+            correct: true
+            info: Das ist falsch. Die Sonne ist ein Stern. Die Erde ist der Planet, der die Sonne umkreist.
+        explanation: Die Sonne ist ein Stern und leuchtet selbst. Die Erde kreist um die Sonne, nicht umgekehrt.
+        hint: Prüfe jede Aussage einzeln. Suche die, die nicht stimmt.
+        links:
+          - { title: Sonne (Wikipedia), url: "https://de.wikipedia.org/wiki/Sonne" }
+          - { title: Astronomische Einheit (Wikipedia), url: "https://de.wikipedia.org/wiki/Astronomische_Einheit" }
+      - type: number
+        id: sonne-erde-mond-lichtweg
+        text: Wie viele Minuten braucht das Licht von der Sonne bis zur Erde? Runde auf ganze Minuten. Eine Minute daneben zählt noch als richtig.
+        answer: 8
+        tolerance: 1
+        unit: Minuten
+        mistakes:
+          - { answer: 60, message: "Das wäre eine ganze Stunde. Licht ist viel schneller unterwegs." }
+          - { answer: 1, message: "Das ist zu kurz. Die Sonne ist rund 150 Millionen Kilometer weit weg." }
+        explanation: Die Sonne ist im Mittel etwa 150 Millionen Kilometer entfernt. Das Licht braucht für diese Strecke 8 Minuten und 19 Sekunden.
+        hint: Es sind einstellig viele Minuten.
+        links:
+          - { title: Astronomische Einheit (Wikipedia), url: "https://de.wikipedia.org/wiki/Astronomische_Einheit" }
+      - type: single-choice
+        id: sonne-erde-mond-tag-nacht
+        text: Wodurch entstehen Tag und Nacht?
+        options:
+          - text: Die Erde dreht sich einmal am Tag um ihre eigene Achse.
+            correct: true
+            info: Dabei wird immer ein anderer Teil der Erde von der Sonne beleuchtet.
+          - text: Die Erde umkreist die Sonne.
+            correct: false
+            info: Dafür braucht die Erde ein ganzes Jahr. Das erklärt das Jahr, nicht den Wechsel von Tag und Nacht.
+          - text: Der Mond schiebt sich vor die Sonne.
+            correct: false
+            info: Das passiert nur bei einer Sonnenfinsternis und nur selten und kurz. Tag und Nacht gibt es jeden Tag.
+        explanation: Die Erde dreht sich in einem Tag einmal um sich selbst. Für einmal um die Sonne braucht sie ein Jahr.
+        links:
+          - { title: Erde (Klexikon), url: "https://klexikon.zum.de/wiki/Erde" }
+          - { title: Erde (Wikipedia), url: "https://de.wikipedia.org/wiki/Erde" }
+      - type: true-false
+        id: sonne-erde-mond-mondfinsternis
+        text: Bei einer Mondfinsternis steht die Erde zwischen Sonne und Mond.
+        answer: true
+        explanation: Bei einer Mondfinsternis wandert der Mond durch den Schatten der Erde. Das geschieht bei Vollmond. Steht der Mond zwischen Sonne und Erde, ist es eine Sonnenfinsternis.
+        links:
+          - { title: Mondfinsternis (Wikipedia), url: "https://de.wikipedia.org/wiki/Mondfinsternis" }
+          - { title: Sonnenfinsternis (Wikipedia), url: "https://de.wikipedia.org/wiki/Sonnenfinsternis" }
+      - type: ordering
+        id: sonne-erde-mond-phasen
+        text: Bringe die Mondphasen in die Reihenfolge, in der sie nach einem Neumond aufeinander folgen.
+        items: [Neumond, zunehmender Halbmond (erstes Viertel), Vollmond, abnehmender Halbmond (letztes Viertel)]
+        explanation: Nach Neumond nimmt der Mond zu, beim ersten Viertel ist die Hälfte hell, bei Vollmond die ganze Scheibe. Danach nimmt er wieder ab. Ein Zyklus dauert etwa 29,5 Tage.
+        links:
+          - { title: Mondphase (Wikipedia), url: "https://de.wikipedia.org/wiki/Mondphase" }
+      - type: matching
+        id: sonne-erde-mond-zeichnung
+        text: Ordne den Buchstaben in der Zeichnung ihre Bezeichnung zu.
+        pairsFrom: material
+        distractors: [Stern in einer anderen Galaxie, Schatten der Erde]
+        material:
+          - type: labelled-figure
+            image: images/nu-sonne-mond-erde.svg
+            alt: Schematische Zeichnung, von links nach rechts. Links ein großer gelber Ball mit Buchstabe C, in der Mitte ein kleiner grauer Ball mit Buchstabe A, dahinter ein dunkler spitzer Schatten mit Buchstabe B, rechts ein blauer Ball mit Buchstabe D.
+            caption: Schema ohne Maßstab. Achte auf die Größe der Körper und darauf, wohin der Schatten fällt.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            legend: false
+            labels:
+              - { marker: C, x: 11.7, y: 50, text: Sonne }
+              - { marker: A, x: 58.3, y: 34, text: Mond }
+              - { marker: B, x: 74, y: 50, text: Schatten des Mondes }
+              - { marker: D, x: 86.7, y: 50, text: Erde }
+        explanation: Die Sonne ist der große, leuchtende Ball. Der kleine graue Ball steht zwischen ihr und der Erde, das ist der Mond. Sein Schatten fällt auf die Erde. So sieht eine Sonnenfinsternis aus.
+        links:
+          - { title: Sonnenfinsternis (Wikipedia), url: "https://de.wikipedia.org/wiki/Sonnenfinsternis" }

@@ -4,11 +4,11 @@
 # Archetype, null until Explore ends; then explainer, the only archetype of lernapps practice. Never another value.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit. Change the value line below, never this comment.
-phase: code
+phase: commit
 # prePushFailures: written by the pre-push hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
-failedChecks: {}
+failedChecks: { checks-pass: 1 }
 ---
 
 # Plan: <occasion>, a learning app through lernapps practice
@@ -53,6 +53,7 @@ Der Sohn (Klasse 5/6) stimmt sich auf den naturwissenschaftlichen Schülerwettbe
 - Drei Themenkapitel wie im Heft; je 2 bis 3 Seiten, nur Themen, die in beiden Vorjahresheften vorkommen oder gut dazu passen (Vorschlag).
 - Klassenstufe: Aufgaben für 5 und 6 gemischt (Vorschlag).
 - Sprache: nur Deutsch (Vorschlag).
+- In Code entschieden (Vorschlag): Die Selbsteinschätzung übernimmt zwölf Fragen der Themenseiten (je vier pro Bereich). Das Punktesystem steht als „in den Heften der letzten Jahre“, mit dem Hinweis, die Regeln im aktuellen Heft nachzulesen. Quellen: überwiegend deutsche Wikipedia und Klexikon, am Ende von jeder Frage verlinkt. Fakten ohne geöffnete Quelle wurden weggelassen.
 
 ## Notes
 
@@ -177,32 +178,33 @@ _Alle Aufgaben von Explore sind erledigt, siehe „Completed“._
 
 ### Tasks
 
-- [ ] `grep '^phase:'` prints `phase: code`; else set it.
-- [ ] Install the skills of Code:
-      `npx --yes skills add lernapps/tooling -y -s lernapps-cli -s lernapps-explainer -s lernapps-content-questions`.
-- [ ] Load skill `lernapps-cli`. Create the app in this folder as it says, with
-      `npx --yes github:lernapps/tooling#main create --archetype explainer`; then `git init`, `npm install`, the
-      first commit. `create` keeps this plan and the skills. Never write the app by hand.
-- [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method". Add under
-      "Rules learned from mistakes" the line: "Diese App wird über lernapps/practice eingereicht: eine Änderung ist
-      ein neues ZIP im Issue; kein Push, kein Listing." `grep -c "FILL IN" .agents/skills/app-content/SKILL.md`
-      prints 0.
-- [ ] Load skill `lernapps-explainer` and the content guide. Questions with options and feedback: also skill
-      `lernapps-content-questions`.
-- [ ] Replace the example chapter "Prozent" and the example component `ProzentFeld` with the planned content.
-- [ ] Chapter „Start“: Seite „So geht Heureka“ (Ablauf, Wertung +3/−1/0, Rate-Rechnung, `generated` Punkte berechnen) und Selbsteinschätzung mit 12 Fragen und Auswertung.
-- [ ] Chapter „Denken wie ein Forscher“: Seiten „Falsche Aussage finden“ (Signalwörter wie alle, immer, nur) und „Schätzen und Ausschließen“ (Größenordnungen, `number` mit `mistakes`).
-- [ ] Chapter „Mensch und Tier“: Seiten „Tiere und ihre Jungen“ (Verwandlung, Warmblüter/Kaltblüter, Besonderheiten), „Körper und Blut“ (Blut, Immunsystem, Nährstoffe, Vitamine, Mineralstoffe), „Atmen, Haut und Sinne“ (Lunge, Haut, Niere, Nerven; `labelled-figure` Lunge).
-- [ ] Chapter „Natur und Umwelt“: Seiten „Sonne, Erde und Mond“ (Sonnenfinsternis, `labelled-figure`), „Planeten und Weltall“ (`ordering`), „Wasser und Wetter“ (Löslichkeit, Eis, Wolken, Wind, Klimazonen), „Natur schützen“ (Ökosystem, Treibhauseffekt, Nachhaltigkeit, Müll).
-- [ ] Chapter „Technik und Fortschritt“: Seiten „Internet und Computer“ (IP-Adresse, WLAN, Dateiformate, Spam, KI), „Energie und Strom“ (Windkraft, Elektroauto, fossile Brennstoffe; `labelled-figure` Windrad), „Stoffe und Messgeräte“ (Metalle, Recycling, Magnetfeld, Barometer, Hygrometer, Gentechnik).
-- [ ] The figures: as skill `lernapps-practice-photos` says, in `src/images/`, with `source` and `licence`.
-- [ ] `npm run build` and `npm run check` pass.
-- [ ] The content guide matches what was built.
-- [ ] Every box of Explore, Plan and Code ticked.
-- [ ] Set `phase: commit`: change the value line (`grep '^phase:'` prints `phase: commit`).
+- [x] Set `phase: commit`: change the value line (`grep '^phase:'` prints `phase: commit`).
       No checkpoint here: set it before you ask or report anything, then start Commit in the same message.
 
 ### Completed
+
+- [x] `grep '^phase:'` prints `phase: code`; else set it.
+- [x] Install the skills of Code:
+      `npx --yes skills add lernapps/tooling -y -s lernapps-cli -s lernapps-explainer -s lernapps-content-questions`.
+- [x] Load skill `lernapps-cli`. Create the app in this folder as it says, with
+      `npx --yes github:lernapps/tooling#main create --archetype explainer`; then `git init`, `npm install`, the
+      first commit. `create` keeps this plan and the skills. Never write the app by hand.
+- [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method". Add under
+      "Rules learned from mistakes" the line: "Diese App wird über lernapps/practice eingereicht: eine Änderung ist
+      ein neues ZIP im Issue; kein Push, kein Listing." `grep -c "FILL IN" .agents/skills/app-content/SKILL.md`
+      prints 0.
+- [x] Load skill `lernapps-explainer` and the content guide. Questions with options and feedback: also skill
+      `lernapps-content-questions`.
+- [x] Replace the example chapter "Prozent" and the example component `ProzentFeld` with the planned content.
+- [x] Chapter „Start“: Seite „So geht Heureka“ (Ablauf, Wertung +3/−1/0, Rate-Rechnung, `generated` Punkte berechnen) und Selbsteinschätzung mit 12 Fragen und Auswertung.
+- [x] Chapter „Denken wie ein Forscher“: Seiten „Falsche Aussage finden“ (Signalwörter wie alle, immer, nur) und „Schätzen und Ausschließen“ (Größenordnungen, `number` mit `mistakes`).
+- [x] Chapter „Mensch und Tier“: Seiten „Tiere und ihre Jungen“ (Verwandlung, Warmblüter/Kaltblüter, Besonderheiten), „Körper und Blut“ (Blut, Immunsystem, Nährstoffe, Vitamine, Mineralstoffe), „Atmen, Haut und Sinne“ (Lunge, Haut, Niere, Nerven; `labelled-figure` Lunge).
+- [x] Chapter „Natur und Umwelt“: Seiten „Sonne, Erde und Mond“ (Sonnenfinsternis, `labelled-figure`), „Planeten und Weltall“ (`ordering`), „Wasser und Wetter“ (Löslichkeit, Eis, Wolken, Wind, Klimazonen), „Natur schützen“ (Ökosystem, Treibhauseffekt, Nachhaltigkeit, Müll).
+- [x] Chapter „Technik und Fortschritt“: Seiten „Internet und Computer“ (IP-Adresse, WLAN, Dateiformate, Spam, KI), „Energie und Strom“ (Windkraft, Elektroauto, fossile Brennstoffe; `labelled-figure` Windrad), „Stoffe und Messgeräte“ (Metalle, Recycling, Magnetfeld, Barometer, Hygrometer, Gentechnik).
+- [x] The figures: as skill `lernapps-practice-photos` says, in `src/images/`, with `source` and `licence`.
+- [x] `npm run build` and `npm run check` pass.
+- [x] The content guide matches what was built.
+- [x] Every box of Explore, Plan and Code ticked.
 
 ## Commit
 

@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: Schätzen und Ausschließen
+description: Wie du mit Größenordnungen und dem Ausschließen unmöglicher Antworten zur richtigen Lösung kommst.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Manchmal weißt du eine Antwort nicht genau. Trotzdem kannst du oft sagen, welche Antworten unmöglich sind. Dann
+          bleibt eine kleine Auswahl, und dein Tipp ist viel besser als reines Raten.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: definition
+        term: Größenordnung
+        explanation: Eine grobe Angabe, wie groß etwas ungefähr ist, zum Beispiel „einige Tausend“ oder „einige Millionen“.
+      - type: text
+        text: |
+          Zwei Wege helfen dir:
+
+          1. **Ausschließen:** Streiche zuerst alle Antworten, die nicht passen können. Wenn zwei Antworten gleich viel
+             sagen, ist oft keine davon die Lösung. Zahlen, die weit weg von allem liegen, was du kennst, kannst du
+             meistens streichen.
+          2. **Schätzen:** Vergleiche mit Dingen, die du kennst. Ein Schritt ist etwa einen halben Meter lang. Ein
+             Hochhaus ist etwa 100 Meter hoch.
+      - type: example
+        title: "Beispiel: Wie schnell schlägt dein Herz?"
+        blocks:
+          - type: text
+            text: |
+              Welche Zahl passt zum Herzschlag eines gesunden Erwachsenen in Ruhe pro Minute? (a) 7 (b) 70 (c) 700.
+          - type: text
+            text: |
+              Sieben Schläge in einer Minute wären sehr selten, es sind mehr als einer alle zehn Sekunden. 700 Schläge
+              wären mehr als elf pro Sekunde. Dein Herz schlägt in Ruhe etwa einmal pro Sekunde. Also passt (b) 70.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: schaetzen-herz
+        text: "Wie oft schlägt das Herz eines gesunden Erwachsenen in Ruhe ungefähr pro Minute?"
+        options:
+          - text: "etwa 7-mal"
+            correct: false
+            info: "Das wäre viel zu langsam: weniger als ein Schlag alle acht Sekunden."
+          - text: "etwa 70-mal"
+            correct: true
+            info: "Das passt. In Ruhe schlägt das Herz Erwachsener etwa 50- bis 100-mal pro Minute."
+          - text: "etwa 700-mal"
+            correct: false
+            info: "Das wäre viel zu schnell: mehr als elf Schläge pro Sekunde."
+        explanation: "Ein gesundes Herz schlägt in Ruhe etwa 50- bis 100-mal pro Minute, also grob einmal pro Sekunde."
+        links:
+          - { title: "Herzfrequenz (Wikipedia)", url: "https://de.wikipedia.org/wiki/Herzfrequenz" }
+      - type: single-choice
+        id: schaetzen-mond
+        text: "Wie weit ist der Mond im Mittel von der Erde entfernt?"
+        options:
+          - text: "etwa 3 800 km"
+            correct: false
+            info: "Das ist viel zu wenig. So weit ist es ungefähr von Berlin bis in die Türkei, der Mond ist hundertmal weiter weg."
+          - text: "etwa 384 000 km"
+            correct: true
+            info: "Das stimmt. Die mittlere Entfernung beträgt rund 384 400 Kilometer."
+          - text: "etwa 38 400 000 km"
+            correct: false
+            info: "Das ist hundertmal zu viel. So weit sind eher die nächsten Planeten entfernt."
+        explanation: "Der Mond ist im Mittel rund 384 400 km von der Erde entfernt, das sind etwa 30 Erddurchmesser."
+        links:
+          - { title: "Mond (Wikipedia)", url: "https://de.wikipedia.org/wiki/Mond" }
+      - type: number
+        id: schaetzen-everest
+        text: "Wie hoch ist der Mount Everest, der höchste Berg der Erde über dem Meeresspiegel? Bis zu 100 m daneben zählt noch als richtig."
+        answer: 8849
+        tolerance: 100
+        unit: m
+        mistakes:
+          - {
+              answer: 884,
+              message: "Das wäre kein Gebirge der Extreme. Die Zugspitze ist schon fast 3000 m hoch, der Everest ist viel höher.",
+            }
+          - {
+              answer: 88490,
+              message: "Das ist zehnmal zu hoch. Flugzeuge fliegen in etwa 10 000 m Höhe, der Everest ist niedriger.",
+            }
+        explanation: "Der Mount Everest ist 8848,86 m hoch. Das haben China und Nepal 2020 gemeinsam gemessen."
+        links:
+          - { title: "Mount Everest (Wikipedia)", url: "https://de.wikipedia.org/wiki/Mount_Everest" }
+      - type: single-choice
+        id: schaetzen-beine
+        text: "Ein Tier hat vier Beinpaare. Welche Tiergruppe passt am ehesten?"
+        options:
+          - text: "Insekten"
+            correct: false
+            info: "Insekten haben drei Beinpaare, also sechs Beine."
+          - text: "Spinnentiere"
+            correct: true
+            info: "Spinnentiere haben vier Beinpaare, also acht Beine."
+          - text: "Säugetiere"
+            correct: false
+            info: "Säugetiere haben meist vier Beine, das sind zwei Beinpaare."
+        explanation: "Vier Beinpaare sind acht Beine. Das haben Spinnentiere, zum Beispiel Spinnen."
+        links:
+          - { title: "Spinnentiere (Wikipedia)", url: "https://de.wikipedia.org/wiki/Spinnentiere" }

@@ -1,0 +1,131 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+title: So geht Heureka
+description: Der Ablauf, die Punkte für richtig und falsch und warum sich kluges Raten im Mittel lohnt.
+blocks:
+  - type: section
+    id: ueberblick
+    title: Überblick
+    blocks:
+      - type: text
+        text: |
+          Bei Heureka beantwortest du Fragen zu Mensch und Tier, Natur und Umwelt sowie Technik und Fortschritt. Zu jeder
+          Frage gibt es drei Antworten, und nur eine ist richtig. Hier lernst du, wie die Punkte zählen und wann sich ein
+          Tipp lohnt.
+  - type: section
+    id: wissen
+    title: Das solltest du wissen
+    blocks:
+      - type: text
+        text: |
+          In den Aufgabenheften der letzten Jahre war der Ablauf so (lies die Regeln in deinem Heft nach, sie können
+          sich ändern):
+
+          - 45 Fragen in 45 Minuten, jede mit drei Antworten, genau eine ist richtig.
+          - Du arbeitest allein und ohne Hilfe.
+          - Du startest mit 45 Punkten.
+      - type: table
+        caption: Punkte pro Frage
+        header: [Dein Ergebnis bei der Frage, Punkte]
+        rows:
+          - [richtig beantwortet, "+3"]
+          - [falsch beantwortet, "−1"]
+          - [nicht beantwortet, "0"]
+      - type: definition
+        term: Startkapital
+        explanation: Die Punkte, mit denen du beginnst. Im Heft sind es 45, damit du nie unter 0 Punkte rutschen kannst.
+      - type: example
+        title: Wie viele Punkte hat man am Ende?
+        blocks:
+          - type: text
+            text: |
+              Anna beantwortet 30 Fragen richtig und 10 falsch. Fünf Fragen lässt sie offen. Sie rechnet:
+              45 Punkte Start, dazu 30 · 3 = 90 Punkte, davon ziehst du 10 · 1 = 10 Punkte ab. Das ergibt
+              45 + 90 − 10 = 125 Punkte.
+      - type: section
+        id: raten
+        title: Lohnt sich Raten?
+        blocks:
+          - type: text
+            text: |
+              Stell dir vor, du weißt bei drei Fragen gar nichts und tippst jedes Mal. Bei drei Antworten ist im
+              Durchschnitt bei einer der drei Fragen dein Tipp richtig (+3) und bei zwei falsch (−2). Zusammen sind
+              das **+1 Punkt**, also im Mittel ein Drittel Punkt pro Frage. Raten verliert also nicht, es gewinnt im
+              Mittel ein bisschen.
+          - type: text
+            text: |
+              Noch besser wird es, wenn du eine Antwort sicher ausschließen kannst. Dann tippst du zwischen zwei
+              Antworten. Bei zwei Fragen liegst du im Durchschnitt einmal richtig (+3) und einmal falsch (−1): zusammen
+              **+2 Punkte**, also im Mittel ein ganzer Punkt pro Frage.
+          - type: note
+            title: Merke
+            blocks:
+              - type: text
+                text: |
+                  Es ist nur ein Durchschnitt über viele Fragen. Bei einer einzelnen Frage kann dein Tipp trotzdem
+                  danebengehen. Wichtiger als Glück ist, falsche Antworten klug auszuschließen. Wie das geht, übst du im
+                  nächsten Kapitel.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: generated
+        id: start-punkte-berechnen
+        given:
+          r: { int: [10, 40], step: 1 }
+          f: { int: [1, 34], step: 1 }
+        where: ["r + f <= 44"]
+        task:
+          text: "Mia startet mit 45 Punkten. Sie beantwortet {{r}} Fragen richtig und {{f}} Fragen falsch, mindestens eine Frage lässt sie offen. Für richtig gibt es 3 Punkte, für falsch wird 1 Punkt abgezogen, für offen gibt es nichts. Wie viele Punkte hat Mia am Ende?"
+        answer: { value: "45 + 3 * r - f", compare: { number: { format: integer } } }
+        mistakes:
+          - { value: "3 * r - f", message: "Du hast das Startkapital von 45 Punkten vergessen." }
+          - {
+              value: "45 + 3 * r",
+              message: "Die falschen Antworten bringen Punktabzug: Für jede falsche Antwort wird 1 Punkt abgezogen.",
+            }
+          - {
+              value: "45 + 3 * r - (45 - r)",
+              message: "Die offenen Fragen kosten nichts. Abgezogen wird nur für falsche Antworten, nicht für offene.",
+            }
+        hint: "Rechne erst die Punkte für die richtigen Antworten aus, ziehe dann die falschen ab und denke an das Startkapital."
+        steps:
+          - "45 + {{r}} · 3 − {{f}}"
+          - "Das ergibt {{answer}} Punkte."
+        examples:
+          accepted: ["45 + 3 * r - f"]
+          rejected: ["3 * r - f"]
+      - type: number
+        id: start-ausschliessen
+        text: "Bei zwei Fragen kannst du jeweils eine falsche Antwort ausschließen und tippst zwischen den zwei übrigen. Wie viele Punkte bringt das im Durchschnitt zusammen? Rechne mit einmal richtig (+3) und einmal falsch (−1)."
+        answer: 2
+        tolerance: 0
+        unit: Punkte
+        mistakes:
+          - { answer: 4, message: "Du hast nur die richtige Antwort gezählt. Die falsche Antwort gibt 1 Punkt Abzug." }
+          - { answer: 3, message: "Du hast nur die richtige Antwort gezählt und den Abzug für die falsche vergessen." }
+        explanation: "Eine richtige Antwort bringt 3 Punkte, eine falsche kostet 1 Punkt. Das ergibt 3 − 1 = 2 Punkte für die beiden Fragen."
+        links:
+          - { title: "Multiple Choice (Wikipedia)", url: "https://de.wikipedia.org/wiki/Multiple_Choice" }
+      - type: true-false
+        id: start-raten-wahr-falsch
+        text: "Wenn du bei einer Frage gar nichts weißt und drei Antworten zur Wahl hast, ist Raten nach den Regeln mit +3 und −1 auf Dauer keine schlechte Idee."
+        answer: true
+        explanation: "Im Durchschnitt triffst du bei einer von drei Fragen, das ergibt +3 −1 −1 = +1 Punkt für drei Fragen. Raten verliert also nicht."
+        links:
+          - { title: "Multiple Choice (Wikipedia)", url: "https://de.wikipedia.org/wiki/Multiple_Choice" }
+      - type: single-choice
+        id: start-startkapital
+        text: "Wozu dient das Startkapital von 45 Punkten?"
+        options:
+          - text: "Es sorgt dafür, dass du nicht unter 0 Punkte kommen kannst."
+            correct: true
+            info: "Selbst wenn alle Antworten falsch wären, kämen 45 Abzugspunkte heraus: 45 − 45 = 0."
+          - text: "Es ist ein Geschenk für alle, die schnell fertig sind."
+            correct: false
+            info: "Das Startkapital hat nichts mit der Geschwindigkeit zu tun. Alle starten mit denselben Punkten."
+          - text: "Es zählt nur, wenn du keine Frage beantwortest."
+            correct: false
+            info: "Das Startkapital zählt immer. Es ist die Zahl, von der aus du Punkte dazugewinnst oder verlierst."
+        explanation: "Bei 45 Fragen kann ein Abzug von höchstens 45 Punkten entstehen. Das Startkapital gleicht das genau aus."
+        links:
+          - { title: "Multiple Choice (Wikipedia)", url: "https://de.wikipedia.org/wiki/Multiple_Choice" }
