@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "lernapps-cli": {
+      "source": "lernapps/tooling",
+      "sourceType": "github",
+      "skillPath": "skills/tooling/lernapps-cli/SKILL.md",
+      "computedHash": "eb19dbed4cf24465548e3d97795d548465b8374a05cb5e44141221a1674a24c2"
+    },
+    "lernapps-content-questions": {
+      "source": "lernapps/tooling",
+      "sourceType": "github",
+      "skillPath": "skills/content/lernapps-content-questions/SKILL.md",
+      "computedHash": "771a639a53027873e569f805a4a29b42edb75b6a3783dfc159c26de22e6eee6e"
+    },
+    "lernapps-content-research": {
+      "source": "lernapps/tooling",
+      "sourceType": "github",
+      "skillPath": "skills/content/lernapps-content-research/SKILL.md",
+      "computedHash": "a4314f1d89fb56e4199b9729cd293ac8e1065abaf4d5a43455163205e280cc48"
+    },
+    "lernapps-exercise-patterns": {
+      "source": "lernapps/tooling",
+      "sourceType": "github",
+      "skillPath": "skills/content/lernapps-exercise-patterns/SKILL.md",
+      "computedHash": "173e341a776970dbd87ce1d1d72c98b44499c7725399aee4cd2fc799eb5245c8"
+    },
+    "lernapps-explainer": {
+      "source": "lernapps/tooling",
+      "sourceType": "github",
+      "skillPath": "skills/archetypes/lernapps-explainer/SKILL.md",
+      "computedHash": "0bf329707c2471236df35c9a2078cdc2ddcba4aff8a6ebf84d5f98a2e69c797c"
+    },
+    "lernapps-explainer-design": {
+      "source": "lernapps/tooling",
+      "sourceType": "github",
+      "skillPath": "skills/archetypes/lernapps-explainer-design/SKILL.md",
+      "computedHash": "cf1df182da806c44bf10c68ab7d801f1a2429848e4e260810741b4a233c4fd84"
+    },
+    "lernapps-practice-explore": {
+      "source": "lernapps/practice",
+      "sourceType": "github",
+      "skillPath": "skills/process/lernapps-practice-explore/SKILL.md",
+      "computedHash": "3b29bc6076b9a85c47ceaa9c02add396cfbd3338ebaf2c7d2d5c9ffc0456cfed"
+    },
+    "lernapps-practice-photos": {
+      "source": "lernapps/practice",
+      "sourceType": "github",
+      "skillPath": "skills/content/lernapps-practice-photos/SKILL.md",
+      "computedHash": "5d48e97c402e5058890c00fe8b79778f0cceb17a99a9a2976de6ab181df90133"
+    },
+    "lernapps-practice-plan": {
+      "source": "lernapps/practice",
+      "sourceType": "github",
+      "skillPath": "skills/process/lernapps-practice-plan/SKILL.md",
+      "computedHash": "eb8416edaffb154416f1d1ce71c8edcb44300ab555cf6782a968265f2bc0139d"
+    }
+  }
+}
